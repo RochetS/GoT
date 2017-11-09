@@ -1,2 +1,2 @@
 # GoT
-Sirius GoT Editor
+A nice Sirius based GoT Editor
