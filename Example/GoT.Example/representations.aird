@@ -3509,6 +3509,18 @@
           <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
           <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
         </computedStyleDescriptions>
+        <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_nLMNwMZGEeeTd4A4hjWPdA" showIcon="false" sizeComputationExpression="15" resizeKind="NSEW" workspacePath="/GoT.design//icons/big/Jorah_Mormont.png">
+          <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_green']"/>
+        </computedStyleDescriptions>
+        <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_oPHv8MZGEeeTd4A4hjWPdA" showIcon="false" sizeComputationExpression="15" resizeKind="NSEW" workspacePath="/GoT.design//icons/big/Qotho.png">
+          <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+        </computedStyleDescriptions>
+        <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_DcXkYMZHEeeTd4A4hjWPdA" showIcon="false" sizeComputationExpression="15" resizeKind="NSEW" workspacePath="/GoT.design//icons/big/Rhaego.png">
+          <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+        </computedStyleDescriptions>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_nAQhMLKfEeeCXv-cOIKTjA" source="GMF_DIAGRAMS">
@@ -3953,6 +3965,39 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="_YdQPIcZFEee-At0agDx-sA" fontColor="1345869" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YdQPIsZFEee-At0agDx-sA" x="654" y="1638" width="150" height="150"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_jwRmEMZGEeeTd4A4hjWPdA" type="2001" element="_jvKy0MZGEeeTd4A4hjWPdA">
+          <children xmi:type="notation:Node" xmi:id="_jweaYMZGEeeTd4A4hjWPdA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_jweaYcZGEeeTd4A4hjWPdA" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oPQ54MZGEeeTd4A4hjWPdA" type="3005" element="_oPHv8cZGEeeTd4A4hjWPdA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_oPQ54cZGEeeTd4A4hjWPdA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oPQ54sZGEeeTd4A4hjWPdA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_jwRmEcZGEeeTd4A4hjWPdA" fontColor="1345869" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jwRmEsZGEeeTd4A4hjWPdA" x="1206" y="1872" width="150" height="150"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ltVvsMZGEeeTd4A4hjWPdA" type="2001" element="_lss2gMZGEeeTd4A4hjWPdA">
+          <children xmi:type="notation:Node" xmi:id="_ltWWwMZGEeeTd4A4hjWPdA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ltWWwcZGEeeTd4A4hjWPdA" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nLV-wMZGEeeTd4A4hjWPdA" type="3005" element="_nLMNwcZGEeeTd4A4hjWPdA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_nLV-wcZGEeeTd4A4hjWPdA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nLV-wsZGEeeTd4A4hjWPdA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ltVvscZGEeeTd4A4hjWPdA" fontColor="1345869" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ltVvssZGEeeTd4A4hjWPdA" x="870" y="1959" width="150" height="150"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_4XwncMZGEeeTd4A4hjWPdA" type="2001" element="_4XceYMZGEeeTd4A4hjWPdA">
+          <children xmi:type="notation:Node" xmi:id="_4Xwnc8ZGEeeTd4A4hjWPdA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_4XwndMZGEeeTd4A4hjWPdA" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DchVYMZHEeeTd4A4hjWPdA" type="3005" element="_DcXkYcZHEeeTd4A4hjWPdA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_DchVYcZHEeeTd4A4hjWPdA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DchVYsZHEeeTd4A4hjWPdA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_4XwnccZGEeeTd4A4hjWPdA" fontColor="1345869" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4XwncsZGEeeTd4A4hjWPdA" x="228" y="1980" width="150" height="150"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_nAQhMrKfEeeCXv-cOIKTjA"/>
         <edges xmi:type="notation:Edge" xmi:id="_o0bNgLKfEeeCXv-cOIKTjA" type="4001" element="_oz96grKfEeeCXv-cOIKTjA" source="_nAaSMrKfEeeCXv-cOIKTjA" target="_nAkDMrKfEeeCXv-cOIKTjA">
           <children xmi:type="notation:Node" xmi:id="_o0b0kLKfEeeCXv-cOIKTjA" type="6001">
@@ -4258,6 +4303,38 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kmkKVsZFEee-At0agDx-sA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kmkKV8ZFEee-At0agDx-sA" id="(0.5,0.5)"/>
         </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_oPQ548ZGEeeTd4A4hjWPdA" type="4001" element="_oOwjkMZGEeeTd4A4hjWPdA" source="_ltVvsMZGEeeTd4A4hjWPdA" target="_jwRmEMZGEeeTd4A4hjWPdA">
+          <children xmi:type="notation:Node" xmi:id="_oPQ558ZGEeeTd4A4hjWPdA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oPQ56MZGEeeTd4A4hjWPdA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oPQ56cZGEeeTd4A4hjWPdA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oPQ56sZGEeeTd4A4hjWPdA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oPaq4MZGEeeTd4A4hjWPdA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oPaq4cZGEeeTd4A4hjWPdA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_oPQ55MZGEeeTd4A4hjWPdA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_oPQ55cZGEeeTd4A4hjWPdA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oPQ55sZGEeeTd4A4hjWPdA" points="[0, 0, -372, 180]$[372, -180, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oPaq4sZGEeeTd4A4hjWPdA" id="(1.0,0.38571428571428573)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oPaq48ZGEeeTd4A4hjWPdA" id="(0.0,0.4482758620689655)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_DchVY8ZHEeeTd4A4hjWPdA" type="4001" element="_DcEpcsZHEeeTd4A4hjWPdA" source="_UnL2IMY9EeeeQJQ9_T2IoQ" target="_4XwncMZGEeeTd4A4hjWPdA">
+          <children xmi:type="notation:Node" xmi:id="_DchVZ8ZHEeeTd4A4hjWPdA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DchVaMZHEeeTd4A4hjWPdA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DchVacZHEeeTd4A4hjWPdA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DchVasZHEeeTd4A4hjWPdA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DchVa8ZHEeeTd4A4hjWPdA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DchVbMZHEeeTd4A4hjWPdA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_DchVZMZHEeeTd4A4hjWPdA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_DchVZcZHEeeTd4A4hjWPdA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DchVZsZHEeeTd4A4hjWPdA" points="[0, 0, 1440, -1582]$[-1440, 1582, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DchVbcZHEeeTd4A4hjWPdA" id="(0.7266666666666667,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DchVbsZHEeeTd4A4hjWPdA" id="(1.0,0.41379310344827586)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_m_9mW7KfEeeCXv-cOIKTjA" name="Robert Baratheon" width="15" height="15" resizeKind="NSEW">
@@ -4536,9 +4613,6 @@
     <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BA5TYMY6Eee4ep0aCnsIqg" name="Sandor Clegane" outgoingEdges="_NIbF4MY6Eee4ep0aCnsIqg _tvOUwsZBEeeFc8258SFMCA" width="15" height="15" resizeKind="NSEW">
       <target xmi:type="GoT:Character" href="GoTModel.got#//@character.24"/>
       <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.24"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_yh_5gcY8EeeeQJQ9_T2IoQ" showIcon="false" labelColor="77,137,20" description="_yh_5gMY8EeeeQJQ9_T2IoQ" borderColor="209,209,209" workspacePath="/GoT.design//icons/big/Sandor_Clegane.png"/>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
     </ownedDiagramElements>
@@ -4554,13 +4628,10 @@
       <decorations xmi:type="viewpoint:Decoration" xmi:id="_vxNXc8Y9EeeeQJQ9_T2IoQ">
         <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@decorationDescriptionsSet/@decorationDescriptions[name='RIP']"/>
       </decorations>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_vxNXccY9EeeeQJQ9_T2IoQ" showIcon="false" labelColor="239,41,41" description="_vxNXcMY9EeeeQJQ9_T2IoQ" borderColor="209,209,209" workspacePath="/GoT.design//icons/big/Septa_Mordane.png"/>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_UnCsMMY9EeeeQJQ9_T2IoQ" name="Mirri Maz Duur" incomingEdges="_vxNXeMY9EeeeQJQ9_T2IoQ" width="15" height="15" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_UnCsMMY9EeeeQJQ9_T2IoQ" name="Mirri Maz Duur" outgoingEdges="_DcEpcsZHEeeTd4A4hjWPdA" incomingEdges="_vxNXeMY9EeeeQJQ9_T2IoQ" width="15" height="15" resizeKind="NSEW">
       <target xmi:type="GoT:Character" href="GoTModel.got#//@character.26"/>
       <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.26"/>
       <decorations xmi:type="viewpoint:Decoration" xmi:id="_vxNXdsY9EeeeQJQ9_T2IoQ">
@@ -4581,9 +4652,6 @@
       <decorations xmi:type="viewpoint:Decoration" xmi:id="_2sMXI8Y-EeeeQJQ9_T2IoQ">
         <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@decorationDescriptionsSet/@decorationDescriptions[name='RIP']"/>
       </decorations>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_5fPtkcY-EeeeQJQ9_T2IoQ" showIcon="false" labelColor="239,41,41" description="_5fPtkMY-EeeeQJQ9_T2IoQ" borderColor="209,209,209" workspacePath="/GoT.design//icons/big/Waymar_Royce.png"/>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
     </ownedDiagramElements>
@@ -4668,9 +4736,6 @@
       <decorations xmi:type="viewpoint:Decoration" xmi:id="_YO_bkcZDEeeCf7ZkSaOiaA">
         <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='GreyjoyHouse']"/>
       </decorations>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_JeIPUcZDEeeCf7ZkSaOiaA" showIcon="false" labelColor="77,137,20" description="_JeIPUMZDEeeCf7ZkSaOiaA" borderColor="209,209,209" workspacePath="/GoT.design//icons/big/Theon_Greyjoy.png"/>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
     </ownedDiagramElements>
@@ -4707,9 +4772,6 @@
       <decorations xmi:type="viewpoint:Decoration" xmi:id="_PU7_w8ZFEee-At0agDx-sA">
         <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@decorationDescriptionsSet/@decorationDescriptions[name='DeathByBlade']"/>
       </decorations>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_PU7_wcZFEee-At0agDx-sA" showIcon="false" labelColor="239,41,41" description="_PU7_wMZFEee-At0agDx-sA" borderColor="209,209,209" workspacePath="/GoT.design//icons/big/Vayon_Poole.png"/>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
     </ownedDiagramElements>
@@ -4723,6 +4785,36 @@
         <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@decorationDescriptionsSet/@decorationDescriptions[name='DeathByHands']"/>
       </decorations>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ZoBZIcZFEee-At0agDx-sA" showIcon="false" labelColor="239,41,41" description="_ZoBZIMZFEee-At0agDx-sA" borderColor="209,209,209" workspacePath="/GoT.design//icons/big/Mago.png"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jvKy0MZGEeeTd4A4hjWPdA" name="Qotho" incomingEdges="_oOwjkMZGEeeTd4A4hjWPdA" width="15" height="15" resizeKind="NSEW">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.40"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.40"/>
+      <decorations xmi:type="viewpoint:Decoration" xmi:id="_oOmykMZGEeeTd4A4hjWPdA">
+        <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@decorationDescriptionsSet/@decorationDescriptions[name='RIP']"/>
+      </decorations>
+      <decorations xmi:type="viewpoint:Decoration" xmi:id="_oOmykcZGEeeTd4A4hjWPdA">
+        <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@decorationDescriptionsSet/@decorationDescriptions[name='DeathByBlade']"/>
+      </decorations>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_oPHv8cZGEeeTd4A4hjWPdA" showIcon="false" labelColor="239,41,41" description="_oPHv8MZGEeeTd4A4hjWPdA" borderColor="209,209,209" workspacePath="/GoT.design//icons/big/Qotho.png"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_lss2gMZGEeeTd4A4hjWPdA" name="Jorah Mormont" outgoingEdges="_oOwjkMZGEeeTd4A4hjWPdA" width="15" height="15" resizeKind="NSEW">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.41"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.41"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_nLMNwcZGEeeTd4A4hjWPdA" showIcon="false" labelColor="77,137,20" description="_nLMNwMZGEeeTd4A4hjWPdA" borderColor="209,209,209" workspacePath="/GoT.design//icons/big/Jorah_Mormont.png"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_4XceYMZGEeeTd4A4hjWPdA" name="Rhaego" incomingEdges="_DcEpcsZHEeeTd4A4hjWPdA" width="15" height="15" resizeKind="NSEW">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.42"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.42"/>
+      <decorations xmi:type="viewpoint:Decoration" xmi:id="_DcEpcMZHEeeTd4A4hjWPdA">
+        <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@decorationDescriptionsSet/@decorationDescriptions[name='RIP']"/>
+      </decorations>
+      <decorations xmi:type="viewpoint:Decoration" xmi:id="_FUQ6IMZHEeeTd4A4hjWPdA">
+        <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@decorationDescriptionsSet/@decorationDescriptions[name='DeathByMagic']"/>
+      </decorations>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_DcXkYcZHEeeTd4A4hjWPdA" showIcon="false" labelColor="239,41,41" description="_DcXkYMZHEeeTd4A4hjWPdA" borderColor="209,209,209" workspacePath="/GoT.design//icons/big/Rhaego.png"/>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_oz96grKfEeeCXv-cOIKTjA" sourceNode="_m_9mXrKfEeeCXv-cOIKTjA" targetNode="_m_9mYLKfEeeCXv-cOIKTjA">
@@ -4874,6 +4966,22 @@
       <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_kmfR0cZFEee-At0agDx-sA" size="2" strokeColor="246,139,139">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@edgeMappings[name='Kill']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_kmfR0sZFEee-At0agDx-sA"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@edgeMappings[name='Kill']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_oOwjkMZGEeeTd4A4hjWPdA" sourceNode="_lss2gMZGEeeTd4A4hjWPdA" targetNode="_jvKy0MZGEeeTd4A4hjWPdA">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.41"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_oOwjkcZGEeeTd4A4hjWPdA" size="2" strokeColor="246,139,139">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@edgeMappings[name='Kill']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_oOwjksZGEeeTd4A4hjWPdA"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@edgeMappings[name='Kill']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_DcEpcsZHEeeTd4A4hjWPdA" sourceNode="_UnCsMMY9EeeeQJQ9_T2IoQ" targetNode="_4XceYMZGEeeTd4A4hjWPdA">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.26"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_DcEpc8ZHEeeTd4A4hjWPdA" size="2" strokeColor="246,139,139">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@edgeMappings[name='Kill']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_DcEpdMZHEeeTd4A4hjWPdA"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@edgeMappings[name='Kill']"/>
     </ownedDiagramElements>

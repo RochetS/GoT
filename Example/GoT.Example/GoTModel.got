@@ -26,7 +26,7 @@
   <character name="Mycah" status="deceased" reason="Joffrey has him killed after Arya attacks Joffrey" method="Unknown (likely a sword)" methodCategory="Unknown" deathPlace="//@place.18" episode="//@season.0/@episode.3" killedBy="//@character.24"/>
   <character name="Sandor Clegane" reason="Killed during a tournament" method="Spear" killed="//@character.23 //@character.32"/>
   <character name="Septa Mordane" status="deceased" reason="Cersei Lannister and Joffrey Baratheon attacked the Starks because Ned Stark claimed Joffrey had no claim to the throne" method="Sword (Lannister Soldier)" deathPlace="//@place.1" episode="//@season.0/@episode.8" alliegance="//@house.0"/>
-  <character name="Mirri Maz Duur" status="deceased" reason="Revenge for her having killed Khal Drogo and Rhaego" method="Fire" methodCategory="Fire_Burning" deathPlace="//@place.19" episode="//@season.0/@episode.9" killedBy="//@character.15"/>
+  <character name="Mirri Maz Duur" status="deceased" reason="Revenge for her having killed Khal Drogo and Rhaego" method="Fire" methodCategory="Fire_Burning" deathPlace="//@place.19" episode="//@season.0/@episode.9" killedBy="//@character.15" killed="//@character.42"/>
   <character name="Waymar Royce" status="deceased" reason="Unknown" method="Ice sword" deathPlace="//@place.6" episode="//@season.0/@episode.2" killedBy="//@character.28" alliegance="//@house.10 //@house.6"/>
   <character name="White Walker" killed="//@character.27 //@character.29"/>
   <character name="Gared" status="deceased" reason="Unknown" method="Ice Sword" deathPlace="//@place.6" episode="//@season.0/@episode.2" killedBy="//@character.28" alliegance="//@house.6"/>
@@ -40,11 +40,14 @@
   <character name="Vardis Egen" status="deceased" reason="Defeated in a trial by combat to determine Tyrion Lannister’s fate" method="Sword" deathPlace="//@place.20" episode="//@season.0/@episode.0" killedBy="//@character.36" alliegance="//@house.11 //@house.13"/>
   <character name="Vayon Poole" status="deceased" reason="Cersei Lannister and Joffrey Baratheon attacked the Starks because Ned Stark claimed Joffrey had no claim to the throne" method="Blade (Lannister Soldier)" deathPlace="//@place.1" episode="//@season.0/@episode.8" alliegance="//@house.0"/>
   <character name="Mago" status="deceased" reason="Challenged Khal Drogo when Daenerys took his spoils of war" method="Hands" methodCategory="Hands" deathPlace="//@place.21" episode="//@season.0/@episode.8" killedBy="//@character.1" alliegance="//@house.4"/>
+  <character name="Qotho" status="deceased" reason="Tried to stop Mirri Maz Duur’s magic ritual from being performed on Khal Drogo" method="Sword" deathPlace="//@place.19" episode="//@season.0/@episode.1" killedBy="//@character.41" alliegance="//@house.4"/>
+  <character name="Jorah Mormont" killed="//@character.40"/>
+  <character name="Rhaego" status="deceased" reason="Killed in a blood magic ritual as revenge" method="Magic" methodCategory="Magic" deathPlace="//@place.19" episode="//@season.0/@episode.9" killedBy="//@character.26" alliegance="//@house.4"/>
   <house name="Stark" fellow="//@character.3 //@character.8 //@character.9 //@character.6 //@character.10 //@character.11 //@character.12 //@character.13 //@character.14 //@character.18 //@character.20 //@character.25 //@character.35 //@character.38"/>
   <house name="Tully" fellow="//@character.3 //@character.8"/>
   <house name="Targaryen" fellow="//@character.2"/>
   <house name="Baratheon" fellow="//@character.0 //@character.16 //@character.21"/>
-  <house name="Dothraki" fellow="//@character.1 //@character.39"/>
+  <house name="Dothraki" fellow="//@character.1 //@character.39 //@character.40 //@character.42"/>
   <house name="Lannister" fellow="//@character.21 //@character.36"/>
   <house name="Night's Watch" fellow="//@character.22 //@character.27 //@character.29"/>
   <house name="Greyjoy" fellow="//@character.35"/>
