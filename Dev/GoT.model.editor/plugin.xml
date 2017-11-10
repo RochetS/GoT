@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated GoT -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="got.model.GoT.presentation.GoTModelWizardID"
+            name="%_UI_GoTModelWizard_label"
+            class="got.model.GoT.presentation.GoTModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/GoTModelFile.gif">
+         <description>%_UI_GoTModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated GoT -->
+      <editor
+            id="got.model.GoT.presentation.GoTEditorID"
+            name="%_UI_GoTEditor_label"
+            icon="icons/full/obj16/GoTModelFile.gif"
+            extensions="got"
+            class="got.model.GoT.presentation.GoTEditor"
+            contributorClass="got.model.GoT.presentation.GoTActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

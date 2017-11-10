@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:description_3="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="GoT" version="12.0.0.2017041100">
+  <ownedViewpoints name="MovieMode">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="CharactersOverview" initialisation="true" domainClass="GoT::GoT" enablePopupBars="true">
+      <metamodel href="../../GoT.model/model/GoT.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Character" semanticCandidatesExpression="feature:character" domainClass="GoT::Character">
+          <style xsi:type="style:WorkspaceImageDescription" borderSizeComputationExpression="1" showIcon="false" sizeComputationExpression="15" resizeKind="NSEW" workspacePath="/GoT.design/icons/big/unknown.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <toolSections name="CharactersTools">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="NewCharacter" label="New" nodeMappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']" iconPath="/GoT.design/icons/obj16/stark-soldier_16.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="GoT::Character" referenceName="character">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="new character"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <decorationDescriptionsSet>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="StarkHouse" position="NORTH_EAST" preconditionExpression="aql:self.alliegance->exists(h | h.name='Stark')" imageExpression="/GoT.design/icons/small/Stark-icon_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="TullyHouse" position="NORTH_EAST" preconditionExpression="aql:self.alliegance->exists(h | h.name='Tully')" imageExpression="/GoT.design/icons/small/Tully-icon_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="TargaryenHouse" position="NORTH_EAST" preconditionExpression="aql:self.alliegance->exists(h | h.name='Targaryen')" imageExpression="/GoT.design/icons/small/Targaryen-icon_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="TyrellHouse" position="NORTH_EAST" preconditionExpression="aql:self.alliegance->exists(h | h.name='Tyrell')" imageExpression="/GoT.design/icons/small/Tyrell-icon_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="MartellHouse" position="NORTH_EAST" preconditionExpression="aql:self.alliegance->exists(h | h.name='Martell')" imageExpression="/GoT.design/icons/small/Martell-icon_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="GreyjoyHouse" position="NORTH_EAST" preconditionExpression="aql:self.alliegance->exists(h | h.name='Greyjoy')" imageExpression="/GoT.design/icons/small/Greyjoy-icon_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="BaratheonHouse" position="NORTH_EAST" preconditionExpression="aql:self.alliegance->exists(h | h.name='Baratheon')" imageExpression="/GoT.design/icons/small/Baratheon-icon_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="LannisterHouse" position="NORTH_EAST" preconditionExpression="aql:self.alliegance->exists(h | h.name='Lannister')" imageExpression="/GoT.design/icons/small/Lannister-icon_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+        </decorationDescriptionsSet>
+        <customization>
+          <vsmElementCustomizations xsi:type="description:VSMElementCustomization" predicateExpression="aql:true">
+            <featureCustomizations xsi:type="description:EAttributeCustomization" appliedOn="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']/@style" attributeName="workspacePath" value="service:self.getCharacterImage()"/>
+          </vsmElementCustomizations>
+        </customization>
+      </defaultLayer>
+      <additionalLayers name="Spoiler">
+        <edgeMappings name="Kill" sourceMapping="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']" targetMapping="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']" targetFinderExpression="feature:killed">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <decorationDescriptionsSet>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="DeathByBlade" position="NORTH_WEST" preconditionExpression="aql:self.status=GoT::Status::deceased and self.methodCategory=GoT::MethodCategory::Blade" imageExpression="/GoT.design/icons/small/blade_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="DeathByFire_Burning" position="NORTH_WEST" preconditionExpression="aql:self.status=GoT::Status::deceased and self.methodCategory=GoT::MethodCategory::Fire_Burning" imageExpression="/GoT.design/icons/small/blade_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="DeathByAnimal" position="NORTH_WEST" preconditionExpression="aql:self.status=GoT::Status::deceased and self.methodCategory=GoT::MethodCategory::Animal" imageExpression="/GoT.design/icons/small/animal_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="DeathByHousehold_Item" position="NORTH_WEST" preconditionExpression="aql:self.status=GoT::Status::deceased and self.methodCategory=GoT::MethodCategory::Household_Item" imageExpression="/GoT.design/icons/small/household-item_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="DeathByMagic" position="NORTH_WEST" preconditionExpression="aql:self.status=GoT::Status::deceased and self.methodCategory=GoT::MethodCategory::Magic" imageExpression="/GoT.design/icons/small/magic_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="DeathByOther" position="NORTH_WEST" preconditionExpression="aql:self.status=GoT::Status::deceased and self.methodCategory=GoT::MethodCategory::Other" imageExpression="/GoT.design/icons/small/unknown_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="DeathByArrow" position="NORTH_WEST" preconditionExpression="aql:self.status=GoT::Status::deceased and self.methodCategory=GoT::MethodCategory::Arrow" imageExpression="/GoT.design/icons/small/blade_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+        </decorationDescriptionsSet>
+        <customization>
+          <vsmElementCustomizations xsi:type="description:VSMElementCustomization" predicateExpression="aql:self.status=GoT::Status::deceased">
+            <featureCustomizations xsi:type="description:EReferenceCustomization" appliedOn="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']/@style" referenceName="labelColor">
+              <value href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            </featureCustomizations>
+            <featureCustomizations xsi:type="description:EReferenceCustomization" appliedOn="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']/@style" referenceName="borderColor">
+              <value href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            </featureCustomizations>
+          </vsmElementCustomizations>
+          <vsmElementCustomizations xsi:type="description:VSMElementCustomization" predicateExpression="aql:self.status=GoT::Status::alive">
+            <featureCustomizations xsi:type="description:EReferenceCustomization" appliedOn="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']/@style" referenceName="labelColor">
+              <value href="environment:/viewpoint#//@systemColors/@entries[name='dark_green']"/>
+            </featureCustomizations>
+            <featureCustomizations xsi:type="description:EReferenceCustomization" appliedOn="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']/@style" referenceName="borderColor">
+              <value href="environment:/viewpoint#//@systemColors/@entries[name='dark_green']"/>
+            </featureCustomizations>
+          </vsmElementCustomizations>
+        </customization>
+      </additionalLayers>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="HouseDetails" titleExpression="feature:name" domainClass="GoT::House" enablePopupBars="true">
+      <metamodel href="../../GoT.model/model/GoT.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Character" semanticCandidatesExpression="feature:fellow" domainClass="GoT::Character">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="15" resizeKind="NSEW" workspacePath="/GoT.design/icons/big/unknown.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <toolSections name="HouseTools">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="newCharacter" nodeMappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='HouseDetails']/@defaultLayer/@nodeMappings[name='Character']" iconPath="/GoT.design/icons/obj16/stark-soldier_16.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="GoT::Character" referenceName="character">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="new character">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="alliegance" valueExpression="var:container"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <customization>
+          <vsmElementCustomizations xsi:type="description:VSMElementCustomization" predicateExpression="aql:true">
+            <featureCustomizations xsi:type="description:EAttributeCustomization" appliedOn="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='HouseDetails']/@defaultLayer/@nodeMappings[name='Character']/@style" attributeName="workspacePath" value="service:self.getCharacterImage()"/>
+          </vsmElementCustomizations>
+        </customization>
+      </defaultLayer>
+      <additionalLayers name="Lineage">
+        <edgeMappings name="Union" sourceMapping="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='HouseDetails']/@defaultLayer/@nodeMappings[name='Character']" targetMapping="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='HouseDetails']/@defaultLayer/@nodeMappings[name='Character']" targetFinderExpression="feature:secondCharacter" sourceFinderExpression="feature:firstCharacter" domainClass="GoT::Union" useDomainElement="true">
+          <style targetArrow="NoDecoration" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelExpression="Marriage" iconPath="/GoT.design/icons/obj16/union_16.png">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+          <conditionnalStyles predicateExpression="aql:self.kind=GoT::UnionKind::Love">
+            <style targetArrow="NoDecoration" sizeComputationExpression="2">
+              <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+              <centerLabelStyleDescription labelExpression="Love" iconPath="/GoT.design/icons/obj16/love_16.png">
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </centerLabelStyleDescription>
+            </style>
+          </conditionnalStyles>
+        </edgeMappings>
+        <edgeMappings name="Childs" sourceMapping="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='HouseDetails']/@additionalLayers[name='Lineage']/@edgeMappings[name='Union']" targetMapping="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='HouseDetails']/@defaultLayer/@nodeMappings[name='Character']" targetFinderExpression="feature:child">
+          <style sizeComputationExpression="2" routingStyle="tree">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="LineageTools">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="NewUnion" edgeMappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='HouseDetails']/@additionalLayers[name='Lineage']/@edgeMappings[name='Union']" iconPath="/GoT.design/icons/obj16/union_16.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="GoT::Union" referenceName="union">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="firstCharacter" valueExpression="var:source">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="secondCharacter" valueExpression="var:target"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </additionalLayers>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Map" domainClass="GoT::GoT" enablePopupBars="true">
+      <metamodel href="../../GoT.model/model/GoT.ecore#/"/>
+      <defaultLayer name="Default">
+        <containerMappings name="MapImage" semanticCandidatesExpression="aql:self" domainClass="GoT::GoT">
+          <subNodeMappings name="Place" semanticCandidatesExpression="feature:place" domainClass="GoT::Place">
+            <style xsi:type="style:WorkspaceImageDescription" borderSizeComputationExpression="1" borderLineStyle="dot" labelSize="6" showIcon="false" sizeComputationExpression="1" resizeKind="NSEW" workspacePath="/GoT.design/icons/big/Place.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" workspacePath="/GoT.design/icons/big/map.jpg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="PlaceTools">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="NewPlace" nodeMappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='Map']/@defaultLayer/@containerMappings[name='MapImage']/@subNodeMappings[name='Place']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="GoT::Place" referenceName="place">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="New Place"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <customization>
+          <vsmElementCustomizations xsi:type="description:VSMElementCustomization" predicateExpression="aql:true">
+            <featureCustomizations xsi:type="description:EAttributeCustomization" appliedOn="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='Map']/@defaultLayer/@containerMappings[name='MapImage']/@subNodeMappings[name='Place']/@style" attributeName="workspacePath" value="service:self.getPlaceImage()"/>
+          </vsmElementCustomizations>
+        </customization>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_2:TreeDescription" name="Houses" initialisation="true" domainClass="GoT::GoT">
+      <metamodel href="../../GoT.model/model/GoT.ecore#/"/>
+      <subItemMappings name="House" domainClass="GoT::House" semanticCandidatesExpression="feature:house">
+        <defaultStyle showIcon="false">
+          <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+        </defaultStyle>
+        <subItemMappings name="Fellow" domainClass="GoT::Character" semanticCandidatesExpression="feature:fellow">
+          <defaultStyle>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </defaultStyle>
+        </subItemMappings>
+      </subItemMappings>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="GoT.design.Services"/>
+  </ownedViewpoints>
+  <ownedViewpoints name="SerieMaker">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="EpisodesOverview" domainClass="GoT::GoT" enablePopupBars="true">
+      <metamodel href="../../GoT.model/model/GoT.ecore#/"/>
+      <defaultLayer name="Default">
+        <containerMappings name="Season" semanticCandidatesExpression="feature:season" domainClass="GoT::Season" childrenPresentation="List">
+          <subNodeMappings name="Episode" semanticCandidatesExpression="feature:episode" domainClass="GoT::Episode">
+            <style xsi:type="style:BundledImageDescription" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="NewSeason" containerMappings="//@ownedViewpoints[name='SerieMaker']/@ownedRepresentations[name='EpisodesOverview']/@defaultLayer/@containerMappings[name='Season']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="GoT::Season" referenceName="season">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="Season X"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="NewEpisode" nodeMappings="//@ownedViewpoints[name='SerieMaker']/@ownedRepresentations[name='EpisodesOverview']/@defaultLayer/@containerMappings[name='Season']/@subNodeMappings[name='Episode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="GoT::Episode" referenceName="episode">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="Episode X"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+  <ownedViewpoints name="Stats">
+    <ownedRepresentations xsi:type="description_3:EditionTableDescription" name="DeathsBySeasons" initialisation="true" domainClass="GoT::GoT">
+      <metamodel href="../../GoT.model/model/GoT.ecore#/"/>
+      <ownedLineMappings name="Season" domainClass="GoT::Season" semanticCandidatesExpression="feature:season" headerLabelExpression="feature:name"/>
+      <ownedColumnMappings name="DeathBySeason" headerLabelExpression="Deaths" featureName="name" labelExpression="aql:self.eContainer().character.episode->select(e | self.episode->includes(e))->size()"/>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_3:EditionTableDescription" name="Deadliest_Locations" initialisation="true" domainClass="GoT::GoT">
+      <metamodel href="../../GoT.model/model/GoT.ecore#/"/>
+      <ownedLineMappings name="Location" domainClass="GoT::Place" semanticCandidatesExpression="feature:place" headerLabelExpression="feature:name"/>
+      <ownedColumnMappings name="DeathByLocation" headerLabelExpression="Deaths" featureName="name" labelExpression="aql:self.eContainer().character.deathPlace->select(p | p=self)->size()"/>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_3:EditionTableDescription" name="Deadliest_Killers" initialisation="true" domainClass="GoT::GoT">
+      <metamodel href="../../GoT.model/model/GoT.ecore#/"/>
+      <ownedLineMappings name="Killer" domainClass="GoT::Character" semanticCandidatesExpression="feature:character" headerLabelExpression="feature:name"/>
+      <ownedColumnMappings name="Kills" headerLabelExpression="Kills" featureName="killed" labelExpression="aql:self.killed->size()"/>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>
