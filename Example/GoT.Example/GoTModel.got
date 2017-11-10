@@ -10,16 +10,16 @@
   <character name="Black Walder Rivers" status="deceased" killed="//@character.8"/>
   <character name="Catelyn Stark" status="deceased" reason="Killed during the Red Wedding" method="knife" deathPlace="//@place.2" episode="//@season.2/@episode.7" killedBy="//@character.7" alliegance="//@house.0 //@house.1"/>
   <character name="Robb Stark" killed="//@character.33" alliegance="//@house.0"/>
-  <character name="Arya Stark" killed="//@character.21" alliegance="//@house.0"/>
+  <character name="Arya Stark" killed="//@character.21 //@character.60" alliegance="//@house.0"/>
   <character name="Bran Stark" alliegance="//@house.0"/>
   <character name="Rickon Stark" alliegance="//@house.0"/>
   <character name="Wylla Manderly" alliegance="//@house.0"/>
-  <character name="Jon Snow" alliegance="//@house.0"/>
-  <character name="Daenerys Targaryen" killed="//@character.1 //@character.26"/>
-  <character name="Renly Baratheon" status="deceased" reason="Killed so that Stannis Baratheon would have fewer enemies" method="Shadow Demon" methodCategory="Magic" episode="//@season.1/@episode.4" alliegance="//@house.3"/>
-  <character name="Melisandre"/>
+  <character name="Jon Snow" killed="//@character.53 //@character.58" alliegance="//@house.0"/>
+  <character name="Daenerys Targaryen" killed="//@character.1 //@character.26 //@character.49 //@character.54 //@character.55"/>
+  <character name="Renly Baratheon" status="deceased" reason="Killed so that Stannis Baratheon would have fewer enemies" method="Shadow Demon" methodCategory="Magic" deathPlace="//@place.22" episode="//@season.1/@episode.4" killedBy="//@character.17" alliegance="//@house.3"/>
+  <character name="Melisandre" killed="//@character.16 //@character.56"/>
   <character name="Jory Cassel" status="deceased" reason="Attacked Jaime in defense of Ned Stark" method="Knife" deathPlace="//@place.1" episode="//@season.0/@episode.6" killedBy="//@character.19" alliegance="//@house.0"/>
-  <character name="Jaime Lannister" killed="//@character.18"/>
+  <character name="Jaime Lannister" killed="//@character.18 //@character.66 //@character.67"/>
   <character name="Syrio Forel" status="deceased" reason="Cersei Lannister and Joffrey Baratheon attacked the Starks because Ned Stark claimed Joffrey had no claim to the throne" method="Sword" deathPlace="//@place.1" episode="//@season.0/@episode.8" killedBy="//@character.21" alliegance="//@house.0"/>
   <character name="Meryn Trant" status="deceased" reason="Revenge for killing Syrio Forel" method="Knife" deathPlace="//@place.5" episode="//@season.3/@episode.9" killedBy="//@character.10" killed="//@character.20" alliegance="//@house.3 //@house.5"/>
   <character name="Will" status="deceased" reason="Deserting the Night’s Watch" method="Sword" deathPlace="//@place.4" episode="//@season.0/@episode.2" killedBy="//@character.3" alliegance="//@house.6"/>
@@ -35,28 +35,66 @@
   <character name="Ser Hugh of the Vale" status="deceased" reason="Killed during a tournament" method="Spear" methodCategory="Spear" deathPlace="//@place.1" episode="//@season.0/@episode.5" killedBy="//@character.24" alliegance="//@house.11"/>
   <character name="Wallen" status="deceased" reason="Attacked Bran Stark" method="Sword" deathPlace="//@place.4" episode="//@season.0/@episode.0" killedBy="//@character.9" alliegance="//@house.12"/>
   <character name="Stiv" status="deceased" reason="Attacked Bran Stark" method="Arrow" methodCategory="Arrow" deathPlace="//@place.4" episode="//@season.0/@episode.0" killedBy="//@character.35" alliegance="//@house.12"/>
-  <character name="Theon Greyjoy" killed="//@character.34" alliegance="//@house.7 //@house.0"/>
-  <character name="Bronn" killed="//@character.37" alliegance="//@house.5"/>
+  <character name="Theon Greyjoy" killed="//@character.34 //@character.46 //@character.68 //@character.69" alliegance="//@house.7 //@house.0"/>
+  <character name="Bronn" reason="Killed during the Battle of the Blackwater" method="Fire/Burning" methodCategory="Fire_Burning" killed="//@character.37 //@character.50" alliegance="//@house.5"/>
   <character name="Vardis Egen" status="deceased" reason="Defeated in a trial by combat to determine Tyrion Lannister’s fate" method="Sword" deathPlace="//@place.20" episode="//@season.0/@episode.0" killedBy="//@character.36" alliegance="//@house.11 //@house.13"/>
   <character name="Vayon Poole" status="deceased" reason="Cersei Lannister and Joffrey Baratheon attacked the Starks because Ned Stark claimed Joffrey had no claim to the throne" method="Blade (Lannister Soldier)" deathPlace="//@place.1" episode="//@season.0/@episode.8" alliegance="//@house.0"/>
   <character name="Mago" status="deceased" reason="Challenged Khal Drogo when Daenerys took his spoils of war" method="Hands" methodCategory="Hands" deathPlace="//@place.21" episode="//@season.0/@episode.8" killedBy="//@character.1" alliegance="//@house.4"/>
   <character name="Qotho" status="deceased" reason="Tried to stop Mirri Maz Duur’s magic ritual from being performed on Khal Drogo" method="Sword" deathPlace="//@place.19" episode="//@season.0/@episode.1" killedBy="//@character.41" alliegance="//@house.4"/>
   <character name="Jorah Mormont" killed="//@character.40"/>
   <character name="Rhaego" status="deceased" reason="Killed in a blood magic ritual as revenge" method="Magic" methodCategory="Magic" deathPlace="//@place.19" episode="//@season.0/@episode.9" killedBy="//@character.26" alliegance="//@house.4"/>
-  <house name="Stark" fellow="//@character.3 //@character.8 //@character.9 //@character.6 //@character.10 //@character.11 //@character.12 //@character.13 //@character.14 //@character.18 //@character.20 //@character.25 //@character.35 //@character.38"/>
+  <character name="Rakharo" status="deceased" reason="Unknown (possibly as a challenge to Daenerys Targaryen’s khalasar)" method="Unknown (possible rival Dothraki men)" methodCategory="Unknown" deathPlace="//@place.19" episode="//@season.1/@episode.1" alliegance="//@house.2 //@house.4"/>
+  <character name="Yoren" status="deceased" reason="Refused to hand over Gendry" method="Sword" deathPlace="//@place.23" episode="//@season.1/@episode.3" killedBy="//@character.45" alliegance="//@house.6"/>
+  <character name="Amory Lorch" status="deceased" reason="Named by Arya Stark after he finds her with one of Tywin’s letters" method="Poison dart" methodCategory="Poison" deathPlace="//@place.27" episode="//@season.1/@episode.0" killedBy="//@character.64" killed="//@character.44" alliegance="//@house.5"/>
+  <character name="Rodrik Cassel" status="deceased" reason="Refused to stand down when Theon took over Winterfell" method="Blade" deathPlace="//@place.4" episode="//@season.1/@episode.0" killedBy="//@character.35" alliegance="//@house.14 //@house.0"/>
+  <character name="Irri" status="deceased" reason="Killed in a plot by Xaro Xhoan Daxos and Pyat Pree to cover up stealing the dragon eggs" method="Unknown" methodCategory="Unknown" deathPlace="//@place.9" episode="//@season.1/@episode.0" alliegance="//@house.2 //@house.4"/>
+  <character name="The spice king" status="deceased" reason="Killed in a coup by Xaro Xhoan Daxos and Pyat Pree" method="Knife" deathPlace="//@place.9" episode="//@season.1/@episode.2" killedBy="//@character.49" alliegance="//@house.15"/>
+  <character name="Pyat Pree" status="deceased" reason="Tried to lock Daenerys away to fuel his magic" method="Dragonfire" methodCategory="Animal" deathPlace="//@place.9" episode="//@season.1/@episode.9" killedBy="//@character.15" killed="//@character.48" alliegance="//@house.17 //@house.15"/>
+  <character name="Matthos Seaworth" status="deceased" methodCategory="Fire_Burning" deathPlace="//@place.1" episode="//@season.1/@episode.7" killedBy="//@character.36" alliegance="//@house.16 //@house.3"/>
+  <character name="Maester Luwin" status="deceased" deathPlace="//@place.4" episode="//@season.1/@episode.9" killedBy="//@character.52" alliegance="//@house.0"/>
+  <character name="Osha" reason="Mercy killed by Osha after being stabbed in the stomach with a spear by Dagmer" method="Knife" killed="//@character.51 //@character.65"/>
+  <character name="Qhorin Halfhand" status="deceased" reason="Part of plan to make the wildlings trust Jon Snow" method="Sword (Longclaw)" deathPlace="//@place.6" episode="//@season.1/@episode.9" killedBy="//@character.14" alliegance="//@house.6"/>
+  <character name="Xaro Xhoan Daxos" status="deceased" reason="Betrayed Daenerys to declare himself king of Qarth" method="Sealed into vault" methodCategory="Other" deathPlace="//@place.9" episode="//@season.1/@episode.9" killedBy="//@character.15" alliegance="//@house.15"/>
+  <character name="Doreah" status="deceased" reason="Betrayed Daenerys to help Xaro Xhoan Daxos steal the dragons" method="Sealed into vault" methodCategory="Other" episode="//@season.1/@episode.9" killedBy="//@character.15" alliegance="//@house.2 //@house.15"/>
+  <character name="Maester Cressen" status="deceased" reason="Tried to kill Melisandre" method="Poison (magic?)" methodCategory="Poison" deathPlace="//@place.24" episode="//@season.1/@episode.6" killedBy="//@character.17" alliegance="//@house.3"/>
+  <character name="Barra Baratheon Illegitimate Daughter" status="deceased" reason="Joffrey Baratheon orders all of Robert Baratheon’s illegitimate children to be killed" method="Knife" deathPlace="//@place.1" episode="//@season.1/@episode.6" killedBy="//@character.58" alliegance="//@house.18"/>
+  <character name="Janos Slynt" status="deceased" reason="Executed for refusing to obey the orders of Lord Commander Jon Snow" method="Sword (Longclaw)" deathPlace="//@place.8" episode="//@season.3/@episode.3" killedBy="//@character.14" killed="//@character.57" alliegance="//@house.3 //@house.6"/>
+  <character name="Lommy Greenhands" status="deceased" reason="Killed after asking to be carried" method="Sword (Needle)" deathPlace="//@place.25" episode="//@season.1/@episode.3" killedBy="//@character.60" alliegance="//@house.18"/>
+  <character name="Polliver" reason="Revenge for killing Lommy" method="Sword (Needle)" deathPlace="//@place.25" episode="//@season.4/@episode.2" killedBy="//@character.10" killed="//@character.59" alliegance="//@house.3"/>
+  <character name="Rennick" status="deceased" reason="Battle between Lannister and Stark forces" method="Direwolf teeth" methodCategory="Animal" deathPlace="//@place.26" episode="//@season.1/@episode.5" killedBy="//@character.62" alliegance="//@house.5"/>
+  <character name="Grey Wind" status="deceased" reason="Killed during the Red Wedding" method="Arrow (Frey Soldier)" methodCategory="Arrow" deathPlace="//@place.2" episode="//@season.2/@episode.7" killed="//@character.61" alliegance="//@house.0"/>
+  <character name="The tickler" status="deceased" reason="Arya Stark orders his death as part of her three deaths from Jaqen" method="Unknown" methodCategory="Unknown" episode="//@season.1/@episode.4" killedBy="//@character.64" alliegance="//@house.19"/>
+  <character name="Jaqen H'ghar" killed="//@character.63 //@character.45"/>
+  <character name="Drennan" status="deceased" reason="Killed so that Osha could escape from Winterfell with Bran Stark, Rickon Stark and Hodor" method="Knife" deathPlace="//@place.4" episode="//@season.1/@episode.0" killedBy="//@character.52" alliegance="//@house.7"/>
+  <character name="Alton Lannister" status="deceased" reason="Killed in Jaime’s attempt to escape imprisonment" method="Hands" methodCategory="Hands" episode="//@season.1/@episode.2" killedBy="//@character.19" alliegance="//@house.5"/>
+  <character name="Torrhen Karstark" status="deceased" reason="Killed in Jaime’s attempt to escape imprisonment" method="Hands" methodCategory="Hands" episode="//@season.1/@episode.2" killedBy="//@character.19" alliegance="//@house.20 //@house.0"/>
+  <character name="Billy" status="deceased" reason="Theon needed to fool everyone into thinking he had killed Bran and Rickon Stark" method="Fire" methodCategory="Fire_Burning" deathPlace="//@place.4" episode="//@season.1/@episode.2" killedBy="//@character.35" alliegance="//@house.18"/>
+  <character name="Jack" status="deceased" reason="Theon needed to fool everyone into thinking he had killed Bran and Rickon Stark" method="Fire" methodCategory="Fire_Burning" deathPlace="//@place.4" episode="//@season.1/@episode.2" killedBy="//@character.35"/>
+  <character name="Mandon Moore" status="deceased" reason="Attempted to kill Tyrion Lannister during the Battle of Blackwater" method="Spear" methodCategory="Spear" deathPlace="//@place.1" episode="//@season.1/@episode.7" killedBy="//@character.71" alliegance="//@house.21 //@house.22"/>
+  <character name="Podrick Payne" killed="//@character.70"/>
+  <house name="Stark" fellow="//@character.3 //@character.8 //@character.9 //@character.6 //@character.10 //@character.11 //@character.12 //@character.13 //@character.14 //@character.18 //@character.20 //@character.25 //@character.35 //@character.38 //@character.46 //@character.51 //@character.62 //@character.67"/>
   <house name="Tully" fellow="//@character.3 //@character.8"/>
-  <house name="Targaryen" fellow="//@character.2"/>
-  <house name="Baratheon" fellow="//@character.0 //@character.16 //@character.21"/>
-  <house name="Dothraki" fellow="//@character.1 //@character.39 //@character.40 //@character.42"/>
-  <house name="Lannister" fellow="//@character.21 //@character.36"/>
-  <house name="Night's Watch" fellow="//@character.22 //@character.27 //@character.29"/>
-  <house name="Greyjoy" fellow="//@character.35"/>
+  <house name="Targaryen" fellow="//@character.2 //@character.43 //@character.47 //@character.55"/>
+  <house name="Baratheon" fellow="//@character.0 //@character.16 //@character.21 //@character.50 //@character.56 //@character.58 //@character.60"/>
+  <house name="Dothraki" fellow="//@character.1 //@character.39 //@character.40 //@character.42 //@character.43 //@character.47"/>
+  <house name="Lannister" fellow="//@character.21 //@character.36 //@character.61 //@character.45 //@character.66"/>
+  <house name="Night's Watch" fellow="//@character.22 //@character.27 //@character.29 //@character.44 //@character.53 //@character.58"/>
+  <house name="Greyjoy" fellow="//@character.35 //@character.65"/>
   <house name="Martell"/>
   <house name="Frey"/>
   <house name="Royce" fellow="//@character.27"/>
   <house name="Arryn" fellow="//@character.30 //@character.32 //@character.37"/>
   <house name="Free Folk" fellow="//@character.33 //@character.34"/>
   <house name="Egen" fellow="//@character.37"/>
+  <house name="Cassel" fellow="//@character.46"/>
+  <house name="The Thirteen" fellow="//@character.48 //@character.49 //@character.54 //@character.55"/>
+  <house name="Seaworth" fellow="//@character.50"/>
+  <house name="Warlocks of Qarth" fellow="//@character.49"/>
+  <house name="Smallfolk" fellow="//@character.57 //@character.59 //@character.68"/>
+  <house name="Clegane" fellow="//@character.63"/>
+  <house name="Karstark" fellow="//@character.67"/>
+  <house name="Moore" fellow="//@character.70"/>
+  <house name="Kingsguard" fellow="//@character.70"/>
   <season name="1">
     <episode name="Episode 6"/>
     <episode name="Episode 9"/>
@@ -79,6 +117,7 @@
     <episode name="Episode 1"/>
     <episode name="Episode 9"/>
     <episode name="Episode 8"/>
+    <episode name="Episode 10"/>
   </season>
   <season name="3">
     <episode name="Episode 6"/>
@@ -100,6 +139,18 @@
     <episode name="Episode 4"/>
     <episode name="Episode 1"/>
     <episode name="Episode 9"/>
+    <episode name="Episode 8"/>
+    <episode name="Episode 10"/>
+  </season>
+  <season name="4">
+    <episode name="Episode 6"/>
+    <episode name="Episode 9"/>
+    <episode name="Episode 1"/>
+    <episode name="Episode 2"/>
+    <episode name="Episode 3"/>
+    <episode name="Episode 4"/>
+    <episode name="Episode 5"/>
+    <episode name="Episode 7"/>
     <episode name="Episode 8"/>
     <episode name="Episode 10"/>
   </season>
@@ -125,6 +176,12 @@
   <place name="Red Waste"/>
   <place name="The Eyrie"/>
   <place name="Lhazar"/>
+  <place name="Storm’s End"/>
+  <place name="Riverlands"/>
+  <place name="Dragonstone"/>
+  <place name="Riverlands"/>
+  <place name="Oxcross"/>
+  <place name="Harrenhal"/>
   <union child="//@character.6 //@character.9 //@character.10 //@character.11 //@character.12" firstCharacter="//@character.3" secondCharacter="//@character.8"/>
   <union child="//@character.14" kind="Love" firstCharacter="//@character.13" secondCharacter="//@character.3"/>
 </GoT:GoT>
