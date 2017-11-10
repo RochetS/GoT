@@ -116,6 +116,10 @@
               <styles xmi:type="notation:FontStyle" xmi:id="_GHg2ga9SEeegC-vpGxxZ2Q" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_GHg2gq9SEeegC-vpGxxZ2Q"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_vRnKAMZAEeecm_HBhYZ88Q" type="3010" element="_vQz4wMZAEeecm_HBhYZ88Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vRnKAcZAEeecm_HBhYZ88Q" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vRnKAsZAEeecm_HBhYZ88Q"/>
+            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_GHUCNa9SEeegC-vpGxxZ2Q"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_GHUCNq9SEeegC-vpGxxZ2Q"/>
           </children>
@@ -586,6 +590,14 @@
         <target xmi:type="ecore:EEnumLiteral" href="GoT.ecore#//MethodCategory/Arrow"/>
         <semanticElements xmi:type="ecore:EEnumLiteral" href="GoT.ecore#//MethodCategory/Arrow"/>
         <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_GGvacK9SEeegC-vpGxxZ2Q" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_vQz4wMZAEeecm_HBhYZ88Q" name="Poison" tooltipText="">
+        <target xmi:type="ecore:EEnumLiteral" href="GoT.ecore#//MethodCategory/Poison"/>
+        <semanticElements xmi:type="ecore:EEnumLiteral" href="GoT.ecore#//MethodCategory/Poison"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_vQz4wcZAEeecm_HBhYZ88Q" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']"/>

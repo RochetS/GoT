@@ -15,7 +15,7 @@
   <character name="Rickon Stark" alliegance="//@house.0"/>
   <character name="Wylla Manderly" alliegance="//@house.0"/>
   <character name="Jon Snow" alliegance="//@house.0"/>
-  <character name="Daenerys Targaryen" killed="//@character.1"/>
+  <character name="Daenerys Targaryen" killed="//@character.1 //@character.26"/>
   <character name="Renly Baratheon" status="deceased" reason="Killed so that Stannis Baratheon would have fewer enemies" method="Shadow Demon" methodCategory="Magic" episode="//@season.1/@episode.4" alliegance="//@house.3"/>
   <character name="Melisandre"/>
   <character name="Jory Cassel" status="deceased" reason="Attacked Jaime in defense of Ned Stark" method="Knife" deathPlace="//@place.1" episode="//@season.0/@episode.6" killedBy="//@character.19" alliegance="//@house.0"/>
@@ -23,16 +23,27 @@
   <character name="Syrio Forel" status="deceased" reason="Cersei Lannister and Joffrey Baratheon attacked the Starks because Ned Stark claimed Joffrey had no claim to the throne" method="Sword" deathPlace="//@place.1" episode="//@season.0/@episode.8" killedBy="//@character.21" alliegance="//@house.0"/>
   <character name="Meryn Trant" status="deceased" reason="Revenge for killing Syrio Forel" method="Knife" deathPlace="//@place.5" episode="//@season.3/@episode.9" killedBy="//@character.10" killed="//@character.20" alliegance="//@house.3 //@house.5"/>
   <character name="Will" status="deceased" reason="Deserting the Night’s Watch" method="Sword" deathPlace="//@place.4" episode="//@season.0/@episode.2" killedBy="//@character.3" alliegance="//@house.6"/>
-  <house name="Stark" fellow="//@character.3 //@character.8 //@character.9 //@character.6 //@character.10 //@character.11 //@character.12 //@character.13 //@character.14 //@character.18 //@character.20" motto="Winter Is Coming"/>
-  <house name="Tully" fellow="//@character.3 //@character.8" motto="Family, Duty, Honor"/>
-  <house name="Targaryen" fellow="//@character.2" motto="Fire and Blood"/>
-  <house name="Baratheon" fellow="//@character.0 //@character.16 //@character.21" motto="Ours is the Fury"/>
+  <character name="Mycah" status="deceased" reason="Joffrey has him killed after Arya attacks Joffrey" method="Unknown (likely a sword)" methodCategory="Unknown" deathPlace="//@place.18" episode="//@season.0/@episode.3" killedBy="//@character.24"/>
+  <character name="Sandor Clegane" killed="//@character.23"/>
+  <character name="Septa Mordane" status="deceased" reason="Cersei Lannister and Joffrey Baratheon attacked the Starks because Ned Stark claimed Joffrey had no claim to the throne" method="Sword (Lannister Soldier)" deathPlace="//@place.1" episode="//@season.0/@episode.8" alliegance="//@house.0"/>
+  <character name="Mirri Maz Duur" status="deceased" reason="Revenge for her having killed Khal Drogo and Rhaego" method="Fire" methodCategory="Fire_Burning" deathPlace="//@place.19" episode="//@season.0/@episode.9" killedBy="//@character.15"/>
+  <character name="Waymar Royce" status="deceased" reason="Unknown" method="Ice sword" deathPlace="//@place.6" episode="//@season.0/@episode.2" killedBy="//@character.28" alliegance="//@house.10 //@house.6"/>
+  <character name="White Walker" killed="//@character.27 //@character.29"/>
+  <character name="Gared" status="deceased" reason="Unknown" method="Ice Sword" deathPlace="//@place.6" episode="//@season.0/@episode.2" killedBy="//@character.28" alliegance="//@house.6"/>
+  <character name="Jon Arryn" status="deceased" reason="Petyr Baelish persuaded Lysa to do so for reasons unknown" method="Poison" methodCategory="Poison" deathPlace="//@place.1" episode="//@season.0/@episode.2" killedBy="//@character.31" alliegance="//@house.11"/>
+  <character name="Lysa Arryn" killed="//@character.30"/>
+  <house name="Stark" fellow="//@character.3 //@character.8 //@character.9 //@character.6 //@character.10 //@character.11 //@character.12 //@character.13 //@character.14 //@character.18 //@character.20 //@character.25"/>
+  <house name="Tully" fellow="//@character.3 //@character.8"/>
+  <house name="Targaryen" fellow="//@character.2"/>
+  <house name="Baratheon" fellow="//@character.0 //@character.16 //@character.21"/>
   <house name="Dothraki" fellow="//@character.1"/>
-  <house name="Lannister" fellow="//@character.21" motto="Hear Me Roar"/>
-  <house name="Night's Watch" fellow="//@character.22"/>
-  <house name="Greyjoy" motto="We Do Not Sow"/>
-  <house name="Martell" motto="Unbowed, Unbent, Unbroken"/>
-  <house name="Frey" motto="We Stand Together"/>
+  <house name="Lannister" fellow="//@character.21"/>
+  <house name="Night's Watch" fellow="//@character.22 //@character.27 //@character.29"/>
+  <house name="Greyjoy"/>
+  <house name="Martell"/>
+  <house name="Frey"/>
+  <house name="Royce" fellow="//@character.27"/>
+  <house name="Arryn" fellow="//@character.30"/>
   <season name="1">
     <episode name="Episode 6"/>
     <episode name="Episode 9"/>
@@ -97,6 +108,8 @@
   <place name="Volentis"/>
   <place name="Tolos"/>
   <place name="Mantarys"/>
+  <place name="Kingsroad"/>
+  <place name="Red Waste"/>
   <union child="//@character.6 //@character.9 //@character.10 //@character.11 //@character.12" firstCharacter="//@character.3" secondCharacter="//@character.8"/>
   <union child="//@character.14" kind="Love" firstCharacter="//@character.13" secondCharacter="//@character.3"/>
 </GoT:GoT>

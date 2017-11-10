@@ -709,6 +709,7 @@ public class GoTPackageImpl extends EPackageImpl implements GoTPackage {
 		addEEnumLiteral(methodCategoryEEnum, MethodCategory.MAGIC);
 		addEEnumLiteral(methodCategoryEEnum, MethodCategory.OTHER);
 		addEEnumLiteral(methodCategoryEEnum, MethodCategory.ARROW);
+		addEEnumLiteral(methodCategoryEEnum, MethodCategory.POISON);
 
 		initEEnum(statusEEnum, Status.class, "Status");
 		addEEnumLiteral(statusEEnum, Status.ALIVE);
