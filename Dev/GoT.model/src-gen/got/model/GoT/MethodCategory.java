@@ -107,14 +107,23 @@ public enum MethodCategory implements Enumerator {
 	 */
 	POISON(8, "Poison", "Poison"),
 	/**
-	* The '<em><b>Spear</b></em>' literal object.
+	 * The '<em><b>Spear</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	* <!-- end-user-doc -->
+	 * @see #SPEAR_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	SPEAR(9, "Spear", "Spear"),
+	/**
+	* The '<em><b>Hands</b></em>' literal object.
 	* <!-- begin-user-doc -->
 	* <!-- end-user-doc -->
-	* @see #SPEAR_VALUE
+	* @see #HANDS_VALUE
 	* @generated
 	* @ordered
 	*/
-	SPEAR(9, "Spear", "Spear");
+	HANDS(10, "Hands", "Hands");
 
 	/**
 	 * The '<em><b>Blade</b></em>' literal value.
@@ -267,13 +276,28 @@ public enum MethodCategory implements Enumerator {
 	public static final int SPEAR_VALUE = 9;
 
 	/**
+	 * The '<em><b>Hands</b></em>' literal value.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of '<em><b>Hands</b></em>' literal object isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @see #HANDS
+	 * @model name="Hands"
+	 * @generated
+	 * @ordered
+	 */
+	public static final int HANDS_VALUE = 10;
+
+	/**
 	 * An array of all the '<em><b>Method Category</b></em>' enumerators.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	private static final MethodCategory[] VALUES_ARRAY = new MethodCategory[] { BLADE, FIRE_BURNING, ANIMAL,
-			HOUSEHOLD_ITEM, UNKNOWN, MAGIC, OTHER, ARROW, POISON, SPEAR, };
+			HOUSEHOLD_ITEM, UNKNOWN, MAGIC, OTHER, ARROW, POISON, SPEAR, HANDS, };
 
 	/**
 	 * A public read-only list of all the '<em><b>Method Category</b></em>' enumerators.
@@ -349,6 +373,8 @@ public enum MethodCategory implements Enumerator {
 			return POISON;
 		case SPEAR_VALUE:
 			return SPEAR;
+		case HANDS_VALUE:
+			return HANDS;
 		}
 		return null;
 	}

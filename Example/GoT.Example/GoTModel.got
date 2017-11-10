@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GoT:GoT xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:GoT="http://www.example.org/GoT">
   <character name="Robert Baratheon" status="deceased" reason="Hunted the boar while drunk" methodCategory="Animal" deathPlace="//@place.1" episode="//@season.0/@episode.7" alliegance="//@house.3"/>
-  <character name="Khal Drogo" status="deceased" reason="Killed after being put into a vegetative state by Mirri Maz Duur" method="Pillow" methodCategory="Household_Item" episode="//@season.0/@episode.9" killedBy="//@character.15" killed="//@character.2" alliegance="//@house.4"/>
+  <character name="Khal Drogo" status="deceased" reason="Killed after being put into a vegetative state by Mirri Maz Duur" method="Pillow" methodCategory="Household_Item" episode="//@season.0/@episode.9" killedBy="//@character.15" killed="//@character.2 //@character.39" alliegance="//@house.4"/>
   <character name="Viserys Targaryen" status="deceased" reason="Threatened Daenerys Targaryen and her unborn child, drew his sword in the sacred city" method="Molten gold" methodCategory="Fire_Burning" deathPlace="//@place.0" episode="//@season.0/@episode.0" killedBy="//@character.1" alliegance="//@house.2"/>
   <character name="Ned Stark" status="deceased" reason="Executed on Joffrey Baratheon’s orders after Ned claimed Joffrey wasn’t the true heir to the throne" method="Sword" deathPlace="//@place.1" episode="//@season.0/@episode.1" killedBy="//@character.5" killed="//@character.4 //@character.22" alliegance="//@house.0 //@house.1"/>
   <character name="Lady" status="deceased" reason="Robert Baratheon orders that Lady be killed to appease Cersei, who wants revenge after Nymeria attacked Joffrey" method="Knife" episode="//@season.0/@episode.3" killedBy="//@character.3"/>
@@ -36,19 +36,24 @@
   <character name="Wallen" status="deceased" reason="Attacked Bran Stark" method="Sword" deathPlace="//@place.4" episode="//@season.0/@episode.0" killedBy="//@character.9" alliegance="//@house.12"/>
   <character name="Stiv" status="deceased" reason="Attacked Bran Stark" method="Arrow" methodCategory="Arrow" deathPlace="//@place.4" episode="//@season.0/@episode.0" killedBy="//@character.35" alliegance="//@house.12"/>
   <character name="Theon Greyjoy" killed="//@character.34" alliegance="//@house.7 //@house.0"/>
-  <house name="Stark" fellow="//@character.3 //@character.8 //@character.9 //@character.6 //@character.10 //@character.11 //@character.12 //@character.13 //@character.14 //@character.18 //@character.20 //@character.25 //@character.35"/>
+  <character name="Bronn" killed="//@character.37" alliegance="//@house.5"/>
+  <character name="Vardis Egen" status="deceased" reason="Defeated in a trial by combat to determine Tyrion Lannister’s fate" method="Sword" deathPlace="//@place.20" episode="//@season.0/@episode.0" killedBy="//@character.36" alliegance="//@house.11 //@house.13"/>
+  <character name="Vayon Poole" status="deceased" reason="Cersei Lannister and Joffrey Baratheon attacked the Starks because Ned Stark claimed Joffrey had no claim to the throne" method="Blade (Lannister Soldier)" deathPlace="//@place.1" episode="//@season.0/@episode.8" alliegance="//@house.0"/>
+  <character name="Mago" status="deceased" reason="Challenged Khal Drogo when Daenerys took his spoils of war" method="Hands" methodCategory="Hands" deathPlace="//@place.21" episode="//@season.0/@episode.8" killedBy="//@character.1" alliegance="//@house.4"/>
+  <house name="Stark" fellow="//@character.3 //@character.8 //@character.9 //@character.6 //@character.10 //@character.11 //@character.12 //@character.13 //@character.14 //@character.18 //@character.20 //@character.25 //@character.35 //@character.38"/>
   <house name="Tully" fellow="//@character.3 //@character.8"/>
   <house name="Targaryen" fellow="//@character.2"/>
   <house name="Baratheon" fellow="//@character.0 //@character.16 //@character.21"/>
-  <house name="Dothraki" fellow="//@character.1"/>
-  <house name="Lannister" fellow="//@character.21"/>
+  <house name="Dothraki" fellow="//@character.1 //@character.39"/>
+  <house name="Lannister" fellow="//@character.21 //@character.36"/>
   <house name="Night's Watch" fellow="//@character.22 //@character.27 //@character.29"/>
   <house name="Greyjoy" fellow="//@character.35"/>
   <house name="Martell"/>
   <house name="Frey"/>
   <house name="Royce" fellow="//@character.27"/>
-  <house name="Arryn" fellow="//@character.30 //@character.32"/>
+  <house name="Arryn" fellow="//@character.30 //@character.32 //@character.37"/>
   <house name="Free Folk" fellow="//@character.33 //@character.34"/>
+  <house name="Egen" fellow="//@character.37"/>
   <season name="1">
     <episode name="Episode 6"/>
     <episode name="Episode 9"/>
@@ -115,6 +120,8 @@
   <place name="Mantarys"/>
   <place name="Kingsroad"/>
   <place name="Red Waste"/>
+  <place name="The Eyrie"/>
+  <place name="Lhazar"/>
   <union child="//@character.6 //@character.9 //@character.10 //@character.11 //@character.12" firstCharacter="//@character.3" secondCharacter="//@character.8"/>
   <union child="//@character.14" kind="Love" firstCharacter="//@character.13" secondCharacter="//@character.3"/>
 </GoT:GoT>
