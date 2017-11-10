@@ -26,6 +26,7 @@
       <genEnumLiterals ecoreEnumLiteral="GoT.ecore#//MethodCategory/Other"/>
       <genEnumLiterals ecoreEnumLiteral="GoT.ecore#//MethodCategory/Arrow"/>
       <genEnumLiterals ecoreEnumLiteral="GoT.ecore#//MethodCategory/Poison"/>
+      <genEnumLiterals ecoreEnumLiteral="GoT.ecore#//MethodCategory/Spear"/>
     </genEnums>
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="GoT.ecore#//Status">
       <genEnumLiterals ecoreEnumLiteral="GoT.ecore#//Status/alive"/>

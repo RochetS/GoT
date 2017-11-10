@@ -22,6 +22,7 @@
     <eLiterals name="Other" value="6"/>
     <eLiterals name="Arrow" value="7"/>
     <eLiterals name="Poison" value="8"/>
+    <eLiterals name="Spear" value="9"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Character">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
