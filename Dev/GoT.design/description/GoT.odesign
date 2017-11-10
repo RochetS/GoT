@@ -46,6 +46,21 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
+        <toolSections name="SpoilerTools">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Kill" edgeMappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@edgeMappings[name='Kill']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:target">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="status" valueExpression="aql:GoT::Status::deceased">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="killedBy" valueExpression="var:source"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
         <decorationDescriptionsSet>
           <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="DeathByBlade" position="NORTH_WEST" preconditionExpression="aql:self.status=GoT::Status::deceased and self.methodCategory=GoT::MethodCategory::Blade" imageExpression="/GoT.design/icons/small/blade_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
           <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="DeathByFire_Burning" position="NORTH_WEST" preconditionExpression="aql:self.status=GoT::Status::deceased and self.methodCategory=GoT::MethodCategory::Fire_Burning" imageExpression="/GoT.design/icons/small/fireburning_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
