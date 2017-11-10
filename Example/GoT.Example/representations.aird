@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:GoT="http://www.example.org/GoT" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:description_3="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:table="http://www.eclipse.org/sirius/table/1.1.0" xmlns:tree="http://www.eclipse.org/sirius/tree/1.0.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/tree/description/1.0.0 http://www.eclipse.org/sirius/tree/1.0.0#//description http://www.eclipse.org/sirius/table/description/1.1.0 http://www.eclipse.org/sirius/table/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
-  <viewpoint:DAnalysis xmi:id="_somMIK9REeeAmLEeRwAJrQ" selectedViews="_g328YLKbEeeg2PLpOae61w" version="12.0.0.201704271200">
+  <viewpoint:DAnalysis xmi:id="_somMIK9REeeAmLEeRwAJrQ" selectedViews="_g328YLKbEeeg2PLpOae61w _2DEQgLKIEeebU8t9p3biJw" version="12.0.0.201704271200">
     <semanticResources>GoTModel.got</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_r5KBUK9TEeepPqg9mRVJIA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Character']"/>
@@ -2818,7 +2818,7 @@
       <target xmi:type="GoT:Place" href="GoTModel.got#//@place.1"/>
       <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.1"/>
       <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
-      <cells xmi:type="table:DCell" xmi:id="_hU9X1bKKEeeqd6L_qaXeqQ" label="4" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+      <cells xmi:type="table:DCell" xmi:id="_hU9X1bKKEeeqd6L_qaXeqQ" label="11" column="_hU9X9rKKEeeqd6L_qaXeqQ">
         <target xmi:type="GoT:Place" href="GoTModel.got#//@place.1"/>
         <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.1"/>
       </cells>
@@ -2827,7 +2827,7 @@
       <target xmi:type="GoT:Place" href="GoTModel.got#//@place.2"/>
       <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.2"/>
       <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
-      <cells xmi:type="table:DCell" xmi:id="_hU9X17KKEeeqd6L_qaXeqQ" label="1" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+      <cells xmi:type="table:DCell" xmi:id="_hU9X17KKEeeqd6L_qaXeqQ" label="2" column="_hU9X9rKKEeeqd6L_qaXeqQ">
         <target xmi:type="GoT:Place" href="GoTModel.got#//@place.2"/>
         <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.2"/>
       </cells>
@@ -2845,7 +2845,7 @@
       <target xmi:type="GoT:Place" href="GoTModel.got#//@place.4"/>
       <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.4"/>
       <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
-      <cells xmi:type="table:DCell" xmi:id="_hU9X27KKEeeqd6L_qaXeqQ" label="1" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+      <cells xmi:type="table:DCell" xmi:id="_hU9X27KKEeeqd6L_qaXeqQ" label="8" column="_hU9X9rKKEeeqd6L_qaXeqQ">
         <target xmi:type="GoT:Place" href="GoTModel.got#//@place.4"/>
         <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.4"/>
       </cells>
@@ -2863,7 +2863,7 @@
       <target xmi:type="GoT:Place" href="GoTModel.got#//@place.6"/>
       <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.6"/>
       <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
-      <cells xmi:type="table:DCell" xmi:id="_hU9X37KKEeeqd6L_qaXeqQ" label="0" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+      <cells xmi:type="table:DCell" xmi:id="_hU9X37KKEeeqd6L_qaXeqQ" label="3" column="_hU9X9rKKEeeqd6L_qaXeqQ">
         <target xmi:type="GoT:Place" href="GoTModel.got#//@place.6"/>
         <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.6"/>
       </cells>
@@ -2881,7 +2881,7 @@
       <target xmi:type="GoT:Place" href="GoTModel.got#//@place.8"/>
       <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.8"/>
       <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
-      <cells xmi:type="table:DCell" xmi:id="_hU9X47KKEeeqd6L_qaXeqQ" label="0" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+      <cells xmi:type="table:DCell" xmi:id="_hU9X47KKEeeqd6L_qaXeqQ" label="1" column="_hU9X9rKKEeeqd6L_qaXeqQ">
         <target xmi:type="GoT:Place" href="GoTModel.got#//@place.8"/>
         <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.8"/>
       </cells>
@@ -2890,7 +2890,7 @@
       <target xmi:type="GoT:Place" href="GoTModel.got#//@place.9"/>
       <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.9"/>
       <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
-      <cells xmi:type="table:DCell" xmi:id="_hU9X5bKKEeeqd6L_qaXeqQ" label="0" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+      <cells xmi:type="table:DCell" xmi:id="_hU9X5bKKEeeqd6L_qaXeqQ" label="4" column="_hU9X9rKKEeeqd6L_qaXeqQ">
         <target xmi:type="GoT:Place" href="GoTModel.got#//@place.9"/>
         <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.9"/>
       </cells>
@@ -2967,13 +2967,139 @@
         <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.17"/>
       </cells>
     </lines>
-    <columns xmi:type="table:DFeatureColumn" xmi:id="_hU9X9rKKEeeqd6L_qaXeqQ" label="Deaths" cells="_hU9X07KKEeeqd6L_qaXeqQ _hU9X1bKKEeeqd6L_qaXeqQ _hU9X17KKEeeqd6L_qaXeqQ _hU9X2bKKEeeqd6L_qaXeqQ _hU9X27KKEeeqd6L_qaXeqQ _hU9X3bKKEeeqd6L_qaXeqQ _hU9X37KKEeeqd6L_qaXeqQ _hU9X4bKKEeeqd6L_qaXeqQ _hU9X47KKEeeqd6L_qaXeqQ _hU9X5bKKEeeqd6L_qaXeqQ _hU9X57KKEeeqd6L_qaXeqQ _hU9X6bKKEeeqd6L_qaXeqQ _hU9X67KKEeeqd6L_qaXeqQ _hU9X7bKKEeeqd6L_qaXeqQ _hU9X77KKEeeqd6L_qaXeqQ _hU9X8bKKEeeqd6L_qaXeqQ _hU9X87KKEeeqd6L_qaXeqQ _hU9X9bKKEeeqd6L_qaXeqQ" width="61" featureName="name">
+    <lines xmi:type="table:DLine" xmi:id="_DQD9AMZjEeeeYsDdu92Bzg" label="Kingsroad">
+      <target xmi:type="GoT:Place" href="GoTModel.got#//@place.18"/>
+      <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.18"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
+      <cells xmi:type="table:DCell" xmi:id="_DQNG8MZjEeeeYsDdu92Bzg" label="1" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+        <target xmi:type="GoT:Place" href="GoTModel.got#//@place.18"/>
+        <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.18"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_DQD9AcZjEeeeYsDdu92Bzg" label="Red Waste">
+      <target xmi:type="GoT:Place" href="GoTModel.got#//@place.19"/>
+      <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.19"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
+      <cells xmi:type="table:DCell" xmi:id="_DQNG8cZjEeeeYsDdu92Bzg" label="4" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+        <target xmi:type="GoT:Place" href="GoTModel.got#//@place.19"/>
+        <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.19"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_DQD9AsZjEeeeYsDdu92Bzg" label="The Eyrie">
+      <target xmi:type="GoT:Place" href="GoTModel.got#//@place.20"/>
+      <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.20"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
+      <cells xmi:type="table:DCell" xmi:id="_DQNG8sZjEeeeYsDdu92Bzg" label="1" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+        <target xmi:type="GoT:Place" href="GoTModel.got#//@place.20"/>
+        <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.20"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_DQD9A8ZjEeeeYsDdu92Bzg" label="Lhazar">
+      <target xmi:type="GoT:Place" href="GoTModel.got#//@place.21"/>
+      <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.21"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
+      <cells xmi:type="table:DCell" xmi:id="_DQNG88ZjEeeeYsDdu92Bzg" label="1" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+        <target xmi:type="GoT:Place" href="GoTModel.got#//@place.21"/>
+        <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.21"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_DQD9BMZjEeeeYsDdu92Bzg" label="Storm’s End">
+      <target xmi:type="GoT:Place" href="GoTModel.got#//@place.22"/>
+      <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.22"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
+      <cells xmi:type="table:DCell" xmi:id="_DQNG9MZjEeeeYsDdu92Bzg" label="1" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+        <target xmi:type="GoT:Place" href="GoTModel.got#//@place.22"/>
+        <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.22"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_DQD9BcZjEeeeYsDdu92Bzg" label="Riverlands">
+      <target xmi:type="GoT:Place" href="GoTModel.got#//@place.23"/>
+      <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.23"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
+      <cells xmi:type="table:DCell" xmi:id="_DQNG9cZjEeeeYsDdu92Bzg" label="1" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+        <target xmi:type="GoT:Place" href="GoTModel.got#//@place.23"/>
+        <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.23"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_DQD9BsZjEeeeYsDdu92Bzg" label="Dragonstone">
+      <target xmi:type="GoT:Place" href="GoTModel.got#//@place.24"/>
+      <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.24"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
+      <cells xmi:type="table:DCell" xmi:id="_DQNG9sZjEeeeYsDdu92Bzg" label="1" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+        <target xmi:type="GoT:Place" href="GoTModel.got#//@place.24"/>
+        <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.24"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_DQD9B8ZjEeeeYsDdu92Bzg" label="Riverlands">
+      <target xmi:type="GoT:Place" href="GoTModel.got#//@place.25"/>
+      <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.25"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
+      <cells xmi:type="table:DCell" xmi:id="_DQNG98ZjEeeeYsDdu92Bzg" label="2" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+        <target xmi:type="GoT:Place" href="GoTModel.got#//@place.25"/>
+        <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.25"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_DQD9CMZjEeeeYsDdu92Bzg" label="Oxcross">
+      <target xmi:type="GoT:Place" href="GoTModel.got#//@place.26"/>
+      <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.26"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
+      <cells xmi:type="table:DCell" xmi:id="_DQNG-MZjEeeeYsDdu92Bzg" label="1" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+        <target xmi:type="GoT:Place" href="GoTModel.got#//@place.26"/>
+        <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.26"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_DQD9CcZjEeeeYsDdu92Bzg" label="Harrenhal">
+      <target xmi:type="GoT:Place" href="GoTModel.got#//@place.27"/>
+      <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.27"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedLineMappings[name='Location']"/>
+      <cells xmi:type="table:DCell" xmi:id="_DQW38MZjEeeeYsDdu92Bzg" label="1" column="_hU9X9rKKEeeqd6L_qaXeqQ">
+        <target xmi:type="GoT:Place" href="GoTModel.got#//@place.27"/>
+        <semanticElements xmi:type="GoT:Place" href="GoTModel.got#//@place.27"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_hU9X9rKKEeeqd6L_qaXeqQ" label="Deaths" cells="_hU9X07KKEeeqd6L_qaXeqQ _hU9X1bKKEeeqd6L_qaXeqQ _hU9X17KKEeeqd6L_qaXeqQ _hU9X2bKKEeeqd6L_qaXeqQ _hU9X27KKEeeqd6L_qaXeqQ _hU9X3bKKEeeqd6L_qaXeqQ _hU9X37KKEeeqd6L_qaXeqQ _hU9X4bKKEeeqd6L_qaXeqQ _hU9X47KKEeeqd6L_qaXeqQ _hU9X5bKKEeeqd6L_qaXeqQ _hU9X57KKEeeqd6L_qaXeqQ _hU9X6bKKEeeqd6L_qaXeqQ _hU9X67KKEeeqd6L_qaXeqQ _hU9X7bKKEeeqd6L_qaXeqQ _hU9X77KKEeeqd6L_qaXeqQ _hU9X8bKKEeeqd6L_qaXeqQ _hU9X87KKEeeqd6L_qaXeqQ _hU9X9bKKEeeqd6L_qaXeqQ _DQNG8MZjEeeeYsDdu92Bzg _DQNG8cZjEeeeYsDdu92Bzg _DQNG8sZjEeeeYsDdu92Bzg _DQNG88ZjEeeeYsDdu92Bzg _DQNG9MZjEeeeYsDdu92Bzg _DQNG9cZjEeeeYsDdu92Bzg _DQNG9sZjEeeeYsDdu92Bzg _DQNG98ZjEeeeYsDdu92Bzg _DQNG-MZjEeeeYsDdu92Bzg _DQW38MZjEeeeYsDdu92Bzg" width="61" featureName="name">
       <originMapping xmi:type="description_3:FeatureColumnMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']/@ownedColumnMappings[name='DeathByLocation']"/>
     </columns>
     <description xmi:type="description_3:EditionTableDescription" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Locations']"/>
   </table:DTable>
   <table:DTable xmi:id="_mUsLwLKLEeeURofISC9aPA" name="Deadliest Killers" headerColumnWidth="174">
     <target xmi:type="GoT:GoT" href="GoTModel.got#/"/>
+    <lines xmi:type="table:DLine" xmi:id="_mUsL0bKLEeeURofISC9aPA" label="Daenerys Targaryen">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.15"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.15"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_1NwRwrKLEeeKaq9CPJE8hA" label="5" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.15"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.15"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4nMZjEeeeYsDdu92Bzg" label="Theon Greyjoy">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.35"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.35"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4zcZjEeeeYsDdu92Bzg" label="4" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.35"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.35"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_Tn1uQ7KPEeeKaq9CPJE8hA" label="Jaime Lannister">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.19"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.19"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_Tn1uRLKPEeeKaq9CPJE8hA" label="3" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.19"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.19"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_mUsLw7KLEeeURofISC9aPA" label="Khal Drogo">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.1"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.1"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_1NtOcLKLEeeKaq9CPJE8hA" label="2" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.1"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.1"/>
+      </cells>
+    </lines>
     <lines xmi:type="table:DLine" xmi:id="_mUsLxbKLEeeURofISC9aPA" label="Ned Stark">
       <target xmi:type="GoT:Character" href="GoTModel.got#//@character.3"/>
       <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.3"/>
@@ -2983,13 +3109,76 @@
         <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.3"/>
       </cells>
     </lines>
-    <lines xmi:type="table:DLine" xmi:id="_mUsLw7KLEeeURofISC9aPA" label="Khal Drogo">
-      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.1"/>
-      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.1"/>
+    <lines xmi:type="table:DLine" xmi:id="_mUsLzLKLEeeURofISC9aPA" label="Arya Stark">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.10"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.10"/>
       <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
-      <cells xmi:type="table:DCell" xmi:id="_1NtOcLKLEeeKaq9CPJE8hA" label="1" column="_mUsL0rKLEeeURofISC9aPA">
-        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.1"/>
-        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.1"/>
+      <cells xmi:type="table:DCell" xmi:id="_1NvqsLKLEeeKaq9CPJE8hA" label="2" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.10"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.10"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_mUsL0LKLEeeURofISC9aPA" label="Jon Snow">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.14"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.14"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_1NwRwbKLEeeKaq9CPJE8hA" label="2" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.14"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.14"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_yxcVc7KNEeeKaq9CPJE8hA" label="Melisandre">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.17"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.17"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_yxcVdLKNEeeKaq9CPJE8hA" label="2" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.17"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.17"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4kcZjEeeeYsDdu92Bzg" label="Sandor Clegane">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.24"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.24"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4wsZjEeeeYsDdu92Bzg" label="2" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.24"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.24"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4lcZjEeeeYsDdu92Bzg" label="White Walker">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.28"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.28"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4xsZjEeeeYsDdu92Bzg" label="2" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.28"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.28"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4ncZjEeeeYsDdu92Bzg" label="Bronn">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.36"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.36"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4zsZjEeeeYsDdu92Bzg" label="2" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.36"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.36"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4rcZjEeeeYsDdu92Bzg" label="Osha">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.52"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.52"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx43sZjEeeeYsDdu92Bzg" label="2" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.52"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.52"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4ucZjEeeeYsDdu92Bzg" label="Jaqen H'ghar">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.64"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.64"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx46sZjEeeeYsDdu92Bzg" label="2" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.64"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.64"/>
       </cells>
     </lines>
     <lines xmi:type="table:DLine" xmi:id="_mUsLx7KLEeeURofISC9aPA" label="Ilyn Payne">
@@ -3010,31 +3199,13 @@
         <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.7"/>
       </cells>
     </lines>
-    <lines xmi:type="table:DLine" xmi:id="_mUsLzLKLEeeURofISC9aPA" label="Arya Stark">
-      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.10"/>
-      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.10"/>
+    <lines xmi:type="table:DLine" xmi:id="_mUsLy7KLEeeURofISC9aPA" label="Robb Stark">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.9"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.9"/>
       <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
-      <cells xmi:type="table:DCell" xmi:id="_1NvqsLKLEeeKaq9CPJE8hA" label="1" column="_mUsL0rKLEeeURofISC9aPA">
-        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.10"/>
-        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.10"/>
-      </cells>
-    </lines>
-    <lines xmi:type="table:DLine" xmi:id="_mUsL0bKLEeeURofISC9aPA" label="Daenerys Targaryen">
-      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.15"/>
-      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.15"/>
-      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
-      <cells xmi:type="table:DCell" xmi:id="_1NwRwrKLEeeKaq9CPJE8hA" label="1" column="_mUsL0rKLEeeURofISC9aPA">
-        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.15"/>
-        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.15"/>
-      </cells>
-    </lines>
-    <lines xmi:type="table:DLine" xmi:id="_Tn1uQ7KPEeeKaq9CPJE8hA" label="Jaime Lannister">
-      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.19"/>
-      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.19"/>
-      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
-      <cells xmi:type="table:DCell" xmi:id="_Tn1uRLKPEeeKaq9CPJE8hA" label="1" column="_mUsL0rKLEeeURofISC9aPA">
-        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.19"/>
-        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.19"/>
+      <cells xmi:type="table:DCell" xmi:id="_1NvDobKLEeeKaq9CPJE8hA" label="1" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.9"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.9"/>
       </cells>
     </lines>
     <lines xmi:type="table:DLine" xmi:id="_GGNf0LKQEeeKaq9CPJE8hA" label="Meryn Trant">
@@ -3044,6 +3215,87 @@
       <cells xmi:type="table:DCell" xmi:id="_GGNf0bKQEeeKaq9CPJE8hA" label="1" column="_mUsL0rKLEeeURofISC9aPA">
         <target xmi:type="GoT:Character" href="GoTModel.got#//@character.21"/>
         <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.21"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4k8ZjEeeeYsDdu92Bzg" label="Mirri Maz Duur">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.26"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.26"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4xMZjEeeeYsDdu92Bzg" label="1" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.26"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.26"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4mMZjEeeeYsDdu92Bzg" label="Lysa Arryn">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.31"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.31"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4ycZjEeeeYsDdu92Bzg" label="1" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.31"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.31"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4osZjEeeeYsDdu92Bzg" label="Jorah Mormont">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.41"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.41"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx408ZjEeeeYsDdu92Bzg" label="1" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.41"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.41"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4psZjEeeeYsDdu92Bzg" label="Amory Lorch">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.45"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.45"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx418ZjEeeeYsDdu92Bzg" label="1" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.45"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.45"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4qsZjEeeeYsDdu92Bzg" label="Pyat Pree">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.49"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.49"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx428ZjEeeeYsDdu92Bzg" label="1" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.49"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.49"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4s8ZjEeeeYsDdu92Bzg" label="Janos Slynt">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.58"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.58"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx45MZjEeeeYsDdu92Bzg" label="1" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.58"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.58"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4tcZjEeeeYsDdu92Bzg" label="Polliver">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.60"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.60"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx45sZjEeeeYsDdu92Bzg" label="1" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.60"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.60"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4t8ZjEeeeYsDdu92Bzg" label="Grey Wind">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.62"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.62"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx46MZjEeeeYsDdu92Bzg" label="1" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.62"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.62"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4wMZjEeeeYsDdu92Bzg" label="Podrick Payne">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.71"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.71"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx48cZjEeeeYsDdu92Bzg" label="1" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.71"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.71"/>
       </cells>
     </lines>
     <lines xmi:type="table:DLine" xmi:id="_mUsLwrKLEeeURofISC9aPA" label="Robert Baratheon">
@@ -3091,15 +3343,6 @@
         <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.8"/>
       </cells>
     </lines>
-    <lines xmi:type="table:DLine" xmi:id="_mUsLy7KLEeeURofISC9aPA" label="Robb Stark">
-      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.9"/>
-      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.9"/>
-      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
-      <cells xmi:type="table:DCell" xmi:id="_1NvDobKLEeeKaq9CPJE8hA" label="0" column="_mUsL0rKLEeeURofISC9aPA">
-        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.9"/>
-        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.9"/>
-      </cells>
-    </lines>
     <lines xmi:type="table:DLine" xmi:id="_mUsLzbKLEeeURofISC9aPA" label="Bran Stark">
       <target xmi:type="GoT:Character" href="GoTModel.got#//@character.11"/>
       <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.11"/>
@@ -3127,15 +3370,6 @@
         <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.13"/>
       </cells>
     </lines>
-    <lines xmi:type="table:DLine" xmi:id="_mUsL0LKLEeeURofISC9aPA" label="Jon Snow">
-      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.14"/>
-      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.14"/>
-      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
-      <cells xmi:type="table:DCell" xmi:id="_1NwRwbKLEeeKaq9CPJE8hA" label="0" column="_mUsL0rKLEeeURofISC9aPA">
-        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.14"/>
-        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.14"/>
-      </cells>
-    </lines>
     <lines xmi:type="table:DLine" xmi:id="_jZIHoLKNEeeKaq9CPJE8hA" label="Renly Baratheon">
       <target xmi:type="GoT:Character" href="GoTModel.got#//@character.16"/>
       <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.16"/>
@@ -3143,15 +3377,6 @@
       <cells xmi:type="table:DCell" xmi:id="_jZIHobKNEeeKaq9CPJE8hA" label="0" column="_mUsL0rKLEeeURofISC9aPA">
         <target xmi:type="GoT:Character" href="GoTModel.got#//@character.16"/>
         <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.16"/>
-      </cells>
-    </lines>
-    <lines xmi:type="table:DLine" xmi:id="_yxcVc7KNEeeKaq9CPJE8hA" label="Melisandre">
-      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.17"/>
-      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.17"/>
-      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
-      <cells xmi:type="table:DCell" xmi:id="_yxcVdLKNEeeKaq9CPJE8hA" label="0" column="_mUsL0rKLEeeURofISC9aPA">
-        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.17"/>
-        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.17"/>
       </cells>
     </lines>
     <lines xmi:type="table:DLine" xmi:id="__GbfsLKOEeeKaq9CPJE8hA" label="Jory Cassel">
@@ -3181,7 +3406,313 @@
         <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.22"/>
       </cells>
     </lines>
-    <columns xmi:type="table:DFeatureColumn" xmi:id="_mUsL0rKLEeeURofISC9aPA" label="Kills" cells="_1MHTALKLEeeKaq9CPJE8hA _1NtOcLKLEeeKaq9CPJE8hA _1NtOcbKLEeeKaq9CPJE8hA _1Nt1gLKLEeeKaq9CPJE8hA _1Nt1gbKLEeeKaq9CPJE8hA _1Nt1grKLEeeKaq9CPJE8hA _1NuckLKLEeeKaq9CPJE8hA _1NuckbKLEeeKaq9CPJE8hA _1NvDoLKLEeeKaq9CPJE8hA _1NvDobKLEeeKaq9CPJE8hA _1NvqsLKLEeeKaq9CPJE8hA _1NvqsbKLEeeKaq9CPJE8hA _1NvqsrKLEeeKaq9CPJE8hA _1NwRwLKLEeeKaq9CPJE8hA _1NwRwbKLEeeKaq9CPJE8hA _1NwRwrKLEeeKaq9CPJE8hA _jZIHobKNEeeKaq9CPJE8hA _yxcVdLKNEeeKaq9CPJE8hA __GcGwLKOEeeKaq9CPJE8hA _Tn1uRLKPEeeKaq9CPJE8hA _6DR5c7KPEeeKaq9CPJE8hA _GGNf0bKQEeeKaq9CPJE8hA _3dH6FLKQEeeKaq9CPJE8hA" width="42" featureName="killed">
+    <lines xmi:type="table:DLine" xmi:id="_EYx4kMZjEeeeYsDdu92Bzg" label="Mycah">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.23"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.23"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4wcZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.23"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.23"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4ksZjEeeeYsDdu92Bzg" label="Septa Mordane">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.25"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.25"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4w8ZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.25"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.25"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4lMZjEeeeYsDdu92Bzg" label="Waymar Royce">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.27"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.27"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4xcZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.27"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.27"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4lsZjEeeeYsDdu92Bzg" label="Gared">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.29"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.29"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4x8ZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.29"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.29"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4l8ZjEeeeYsDdu92Bzg" label="Jon Arryn">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.30"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.30"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4yMZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.30"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.30"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4mcZjEeeeYsDdu92Bzg" label="Ser Hugh of the Vale">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.32"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.32"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4ysZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.32"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.32"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4msZjEeeeYsDdu92Bzg" label="Wallen">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.33"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.33"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4y8ZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.33"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.33"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4m8ZjEeeeYsDdu92Bzg" label="Stiv">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.34"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.34"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4zMZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.34"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.34"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4nsZjEeeeYsDdu92Bzg" label="Vardis Egen">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.37"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.37"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx4z8ZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.37"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.37"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4n8ZjEeeeYsDdu92Bzg" label="Vayon Poole">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.38"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.38"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx40MZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.38"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.38"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4oMZjEeeeYsDdu92Bzg" label="Mago">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.39"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.39"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx40cZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.39"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.39"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4ocZjEeeeYsDdu92Bzg" label="Qotho">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.40"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.40"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx40sZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.40"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.40"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4o8ZjEeeeYsDdu92Bzg" label="Rhaego">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.42"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.42"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx41MZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.42"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.42"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4pMZjEeeeYsDdu92Bzg" label="Rakharo">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.43"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.43"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx41cZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.43"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.43"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4pcZjEeeeYsDdu92Bzg" label="Yoren">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.44"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.44"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx41sZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.44"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.44"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4p8ZjEeeeYsDdu92Bzg" label="Rodrik Cassel">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.46"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.46"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx42MZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.46"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.46"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4qMZjEeeeYsDdu92Bzg" label="Irri">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.47"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.47"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx42cZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.47"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.47"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4qcZjEeeeYsDdu92Bzg" label="The spice king">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.48"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.48"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx42sZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.48"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.48"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4q8ZjEeeeYsDdu92Bzg" label="Matthos Seaworth">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.50"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.50"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx43MZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.50"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.50"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4rMZjEeeeYsDdu92Bzg" label="Maester Luwin">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.51"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.51"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx43cZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.51"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.51"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4rsZjEeeeYsDdu92Bzg" label="Qhorin Halfhand">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.53"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.53"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx438ZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.53"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.53"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4r8ZjEeeeYsDdu92Bzg" label="Xaro Xhoan Daxos">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.54"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.54"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx44MZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.54"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.54"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4sMZjEeeeYsDdu92Bzg" label="Doreah">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.55"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.55"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx44cZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.55"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.55"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4scZjEeeeYsDdu92Bzg" label="Maester Cressen">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.56"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.56"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx44sZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.56"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.56"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4ssZjEeeeYsDdu92Bzg" label="Barra Baratheon Illegitimate Daughter">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.57"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.57"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx448ZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.57"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.57"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4tMZjEeeeYsDdu92Bzg" label="Lommy Greenhands">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.59"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.59"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx45cZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.59"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.59"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4tsZjEeeeYsDdu92Bzg" label="Rennick">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.61"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.61"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx458ZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.61"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.61"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4uMZjEeeeYsDdu92Bzg" label="The tickler">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.63"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.63"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx46cZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.63"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.63"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4usZjEeeeYsDdu92Bzg" label="Drennan">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.65"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.65"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx468ZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.65"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.65"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4u8ZjEeeeYsDdu92Bzg" label="Alton Lannister">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.66"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.66"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx47MZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.66"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.66"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4vMZjEeeeYsDdu92Bzg" label="Torrhen Karstark">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.67"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.67"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx47cZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.67"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.67"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4vcZjEeeeYsDdu92Bzg" label="Billy">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.68"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.68"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx47sZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.68"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.68"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4vsZjEeeeYsDdu92Bzg" label="Jack">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.69"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.69"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx478ZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.69"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.69"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_EYx4v8ZjEeeeYsDdu92Bzg" label="Mandon Moore">
+      <target xmi:type="GoT:Character" href="GoTModel.got#//@character.70"/>
+      <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.70"/>
+      <originMapping xmi:type="description_3:LineMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedLineMappings[name='Killer']"/>
+      <cells xmi:type="table:DCell" xmi:id="_EYx48MZjEeeeYsDdu92Bzg" label="0" column="_mUsL0rKLEeeURofISC9aPA">
+        <target xmi:type="GoT:Character" href="GoTModel.got#//@character.70"/>
+        <semanticElements xmi:type="GoT:Character" href="GoTModel.got#//@character.70"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_mUsL0rKLEeeURofISC9aPA" label="Kills" cells="_1MHTALKLEeeKaq9CPJE8hA _1NtOcLKLEeeKaq9CPJE8hA _1NtOcbKLEeeKaq9CPJE8hA _1Nt1gLKLEeeKaq9CPJE8hA _1Nt1gbKLEeeKaq9CPJE8hA _1Nt1grKLEeeKaq9CPJE8hA _1NuckLKLEeeKaq9CPJE8hA _1NuckbKLEeeKaq9CPJE8hA _1NvDoLKLEeeKaq9CPJE8hA _1NvDobKLEeeKaq9CPJE8hA _1NvqsLKLEeeKaq9CPJE8hA _1NvqsbKLEeeKaq9CPJE8hA _1NvqsrKLEeeKaq9CPJE8hA _1NwRwLKLEeeKaq9CPJE8hA _1NwRwbKLEeeKaq9CPJE8hA _1NwRwrKLEeeKaq9CPJE8hA _jZIHobKNEeeKaq9CPJE8hA _yxcVdLKNEeeKaq9CPJE8hA __GcGwLKOEeeKaq9CPJE8hA _Tn1uRLKPEeeKaq9CPJE8hA _6DR5c7KPEeeKaq9CPJE8hA _GGNf0bKQEeeKaq9CPJE8hA _3dH6FLKQEeeKaq9CPJE8hA _EYx4wcZjEeeeYsDdu92Bzg _EYx4wsZjEeeeYsDdu92Bzg _EYx4w8ZjEeeeYsDdu92Bzg _EYx4xMZjEeeeYsDdu92Bzg _EYx4xcZjEeeeYsDdu92Bzg _EYx4xsZjEeeeYsDdu92Bzg _EYx4x8ZjEeeeYsDdu92Bzg _EYx4yMZjEeeeYsDdu92Bzg _EYx4ycZjEeeeYsDdu92Bzg _EYx4ysZjEeeeYsDdu92Bzg _EYx4y8ZjEeeeYsDdu92Bzg _EYx4zMZjEeeeYsDdu92Bzg _EYx4zcZjEeeeYsDdu92Bzg _EYx4zsZjEeeeYsDdu92Bzg _EYx4z8ZjEeeeYsDdu92Bzg _EYx40MZjEeeeYsDdu92Bzg _EYx40cZjEeeeYsDdu92Bzg _EYx40sZjEeeeYsDdu92Bzg _EYx408ZjEeeeYsDdu92Bzg _EYx41MZjEeeeYsDdu92Bzg _EYx41cZjEeeeYsDdu92Bzg _EYx41sZjEeeeYsDdu92Bzg _EYx418ZjEeeeYsDdu92Bzg _EYx42MZjEeeeYsDdu92Bzg _EYx42cZjEeeeYsDdu92Bzg _EYx42sZjEeeeYsDdu92Bzg _EYx428ZjEeeeYsDdu92Bzg _EYx43MZjEeeeYsDdu92Bzg _EYx43cZjEeeeYsDdu92Bzg _EYx43sZjEeeeYsDdu92Bzg _EYx438ZjEeeeYsDdu92Bzg _EYx44MZjEeeeYsDdu92Bzg _EYx44cZjEeeeYsDdu92Bzg _EYx44sZjEeeeYsDdu92Bzg _EYx448ZjEeeeYsDdu92Bzg _EYx45MZjEeeeYsDdu92Bzg _EYx45cZjEeeeYsDdu92Bzg _EYx45sZjEeeeYsDdu92Bzg _EYx458ZjEeeeYsDdu92Bzg _EYx46MZjEeeeYsDdu92Bzg _EYx46cZjEeeeYsDdu92Bzg _EYx46sZjEeeeYsDdu92Bzg _EYx468ZjEeeeYsDdu92Bzg _EYx47MZjEeeeYsDdu92Bzg _EYx47cZjEeeeYsDdu92Bzg _EYx47sZjEeeeYsDdu92Bzg _EYx478ZjEeeeYsDdu92Bzg _EYx48MZjEeeeYsDdu92Bzg _EYx48cZjEeeeYsDdu92Bzg" width="42" featureName="killed">
       <originMapping xmi:type="description_3:FeatureColumnMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']/@ownedColumnMappings[name='Kills']"/>
     </columns>
     <description xmi:type="description_3:EditionTableDescription" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='Stats']/@ownedRepresentations[name='Deadliest_Killers']"/>
@@ -6127,9 +6658,6 @@
       <decorations xmi:type="viewpoint:Decoration" xmi:id="_DJkI48ZiEeeeYsDdu92Bzg">
         <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@additionalLayers[name='Spoiler']/@decorationDescriptionsSet/@decorationDescriptions[name='DeathByFire_Burning']"/>
       </decorations>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_InMPMcZiEeeeYsDdu92Bzg" showIcon="false" labelColor="239,41,41" description="_InMPMMZiEeeeYsDdu92Bzg" borderColor="209,209,209" workspacePath="/GoT.design//icons/big/Jack.png"/>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/GoT.design/description/GoT.odesign#//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
     </ownedDiagramElements>
