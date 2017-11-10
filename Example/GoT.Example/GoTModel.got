@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoT:GoT xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:GoT="http://www.example.org/GoT">
+  <character name="Robert Baratheon" status="deceased" reason="Hunted the boar while drunk" methodCategory="Animal" deathPlace="//@place.1" episode="//@season.0/@episode.7" alliegance="//@house.3"/>
+  <character name="Khal Drogo" status="deceased" reason="Killed after being put into a vegetative state by Mirri Maz Duur" method="Pillow" methodCategory="Household_Item" episode="//@season.0/@episode.9" killedBy="//@character.15" killed="//@character.2" alliegance="//@house.4"/>
+  <character name="Viserys Targaryen" status="deceased" reason="Threatened Daenerys Targaryen and her unborn child, drew his sword in the sacred city" method="Molten gold" methodCategory="Fire_Burning" deathPlace="//@place.0" episode="//@season.0/@episode.0" killedBy="//@character.1" alliegance="//@house.2"/>
+  <character name="Ned Stark" status="deceased" reason="Executed on Joffrey Baratheon’s orders after Ned claimed Joffrey wasn’t the true heir to the throne" method="Sword" deathPlace="//@place.1" episode="//@season.0/@episode.1" killedBy="//@character.5" killed="//@character.4 //@character.22" alliegance="//@house.0 //@house.1"/>
+  <character name="Lady" status="deceased" reason="Robert Baratheon orders that Lady be killed to appease Cersei, who wants revenge after Nymeria attacked Joffrey" method="Knife" episode="//@season.0/@episode.3" killedBy="//@character.3"/>
+  <character name="Ilyn Payne" killed="//@character.3"/>
+  <character name="Sansa Stark" alliegance="//@house.0"/>
+  <character name="Black Walder Rivers" status="deceased" killed="//@character.8"/>
+  <character name="Catelyn Stark" status="deceased" reason="Killed during the Red Wedding" method="knife" deathPlace="//@place.2" episode="//@season.2/@episode.7" killedBy="//@character.7" alliegance="//@house.0 //@house.1"/>
+  <character name="Robb Stark" alliegance="//@house.0"/>
+  <character name="Arya Stark" killed="//@character.21" alliegance="//@house.0"/>
+  <character name="Bran Stark" alliegance="//@house.0"/>
+  <character name="Rickon Stark" alliegance="//@house.0"/>
+  <character name="Wylla Manderly" alliegance="//@house.0"/>
+  <character name="Jon Snow" alliegance="//@house.0"/>
+  <character name="Daenerys Targaryen" killed="//@character.1"/>
+  <character name="Renly Baratheon" status="deceased" reason="Killed so that Stannis Baratheon would have fewer enemies" method="Shadow Demon" methodCategory="Magic" episode="//@season.1/@episode.4" alliegance="//@house.3"/>
+  <character name="Melisandre"/>
+  <character name="Jory Cassel" status="deceased" reason="Attacked Jaime in defense of Ned Stark" method="Knife" deathPlace="//@place.1" episode="//@season.0/@episode.6" killedBy="//@character.19" alliegance="//@house.0"/>
+  <character name="Jaime Lannister" killed="//@character.18"/>
+  <character name="Syrio Forel" status="deceased" reason="Cersei Lannister and Joffrey Baratheon attacked the Starks because Ned Stark claimed Joffrey had no claim to the throne" method="Sword" deathPlace="//@place.1" episode="//@season.0/@episode.8" killedBy="//@character.21" alliegance="//@house.0"/>
+  <character name="Meryn Trant" status="deceased" reason="Revenge for killing Syrio Forel" method="Knife" deathPlace="//@place.5" episode="//@season.3/@episode.9" killedBy="//@character.10" killed="//@character.20" alliegance="//@house.3 //@house.5"/>
+  <character name="Will" status="deceased" reason="Deserting the Night’s Watch" method="Sword" deathPlace="//@place.4" episode="//@season.0/@episode.2" killedBy="//@character.3" alliegance="//@house.6"/>
+  <house name="Stark" fellow="//@character.3 //@character.8 //@character.9 //@character.6 //@character.10 //@character.11 //@character.12 //@character.13 //@character.14 //@character.18 //@character.20" motto="Winter Is Coming"/>
+  <house name="Tully" fellow="//@character.3 //@character.8" motto="Family, Duty, Honor"/>
+  <house name="Targaryen" fellow="//@character.2" motto="Fire and Blood"/>
+  <house name="Baratheon" fellow="//@character.0 //@character.16 //@character.21" motto="Ours is the Fury"/>
+  <house name="Dothraki" fellow="//@character.1"/>
+  <house name="Lannister" fellow="//@character.21" motto="Hear Me Roar"/>
+  <house name="Night's Watch" fellow="//@character.22"/>
+  <house name="Greyjoy" motto="We Do Not Sow"/>
+  <house name="Martell" motto="Unbowed, Unbent, Unbroken"/>
+  <house name="Frey" motto="We Stand Together"/>
+  <season name="1">
+    <episode name="Episode 6"/>
+    <episode name="Episode 9"/>
+    <episode name="Episode 1"/>
+    <episode name="Episode 2"/>
+    <episode name="Episode 3"/>
+    <episode name="Episode 4"/>
+    <episode name="Episode 5"/>
+    <episode name="Episode 7"/>
+    <episode name="Episode 8"/>
+    <episode name="Episode 10"/>
+  </season>
+  <season name="2">
+    <episode name="Episode 6"/>
+    <episode name="Episode 2"/>
+    <episode name="Episode 7"/>
+    <episode name="Episode 3"/>
+    <episode name="Episode 5"/>
+    <episode name="Episode 4"/>
+    <episode name="Episode 1"/>
+    <episode name="Episode 9"/>
+    <episode name="Episode 8"/>
+  </season>
+  <season name="3">
+    <episode name="Episode 6"/>
+    <episode name="Episode 2"/>
+    <episode name="Episode 7"/>
+    <episode name="Episode 3"/>
+    <episode name="Episode 5"/>
+    <episode name="Episode 4"/>
+    <episode name="Episode 1"/>
+    <episode name="Episode 9"/>
+    <episode name="Episode 8"/>
+  </season>
+  <season name="5">
+    <episode name="Episode 6"/>
+    <episode name="Episode 2"/>
+    <episode name="Episode 7"/>
+    <episode name="Episode 3"/>
+    <episode name="Episode 5"/>
+    <episode name="Episode 4"/>
+    <episode name="Episode 1"/>
+    <episode name="Episode 9"/>
+    <episode name="Episode 8"/>
+    <episode name="Episode 10"/>
+  </season>
+  <place name="Vaes Dothrak"/>
+  <place name="King's Landing"/>
+  <place name="The Twins"/>
+  <place name="Pyke"/>
+  <place name="Winterfell"/>
+  <place name="Braavos"/>
+  <place name="Beyond the Wall"/>
+  <place name="Meereen"/>
+  <place name="Castle Black"/>
+  <place name="Qarth"/>
+  <place name="Valyria"/>
+  <place name="Pentos"/>
+  <place name="Castarly Rock"/>
+  <place name="Old Town"/>
+  <place name="Myr"/>
+  <place name="Volentis"/>
+  <place name="Tolos"/>
+  <place name="Mantarys"/>
+  <union child="//@character.6 //@character.9 //@character.10 //@character.11 //@character.12" firstCharacter="//@character.3" secondCharacter="//@character.8"/>
+  <union child="//@character.14" kind="Love" firstCharacter="//@character.13" secondCharacter="//@character.3"/>
+</GoT:GoT>
