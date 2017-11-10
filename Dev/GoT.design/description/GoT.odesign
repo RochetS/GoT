@@ -5,7 +5,7 @@
       <metamodel href="../../GoT.model/model/GoT.ecore#/"/>
       <defaultLayer name="Default">
         <nodeMappings name="Character" semanticCandidatesExpression="feature:character" domainClass="GoT::Character">
-          <style xsi:type="style:WorkspaceImageDescription" borderSizeComputationExpression="1" showIcon="false" sizeComputationExpression="15" resizeKind="NSEW" workspacePath="/GoT.design/icons/big/unknown.png">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="15" resizeKind="NSEW" workspacePath="/GoT.design/icons/big/unknown.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
@@ -40,7 +40,7 @@
       <additionalLayers name="Spoiler">
         <edgeMappings name="Kill" sourceMapping="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']" targetMapping="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']" targetFinderExpression="feature:killed">
           <style sizeComputationExpression="2">
-            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
             <centerLabelStyleDescription>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </centerLabelStyleDescription>
@@ -54,21 +54,16 @@
           <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="DeathByMagic" position="NORTH_WEST" preconditionExpression="aql:self.status=GoT::Status::deceased and self.methodCategory=GoT::MethodCategory::Magic" imageExpression="/GoT.design/icons/small/magic_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
           <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="DeathByOther" position="NORTH_WEST" preconditionExpression="aql:self.status=GoT::Status::deceased and self.methodCategory=GoT::MethodCategory::Other" imageExpression="/GoT.design/icons/small/unknown_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
           <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="DeathByArrow" position="NORTH_WEST" preconditionExpression="aql:self.status=GoT::Status::deceased and self.methodCategory=GoT::MethodCategory::Arrow" imageExpression="/GoT.design/icons/small/blade_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="RIP" position="CENTER" preconditionExpression="aql:self.status=GoT::Status::deceased" imageExpression="/GoT.design/icons/small/RIP_small.png" mappings="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']"/>
         </decorationDescriptionsSet>
         <customization>
           <vsmElementCustomizations xsi:type="description:VSMElementCustomization" predicateExpression="aql:self.status=GoT::Status::deceased">
             <featureCustomizations xsi:type="description:EReferenceCustomization" appliedOn="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']/@style" referenceName="labelColor">
               <value href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
             </featureCustomizations>
-            <featureCustomizations xsi:type="description:EReferenceCustomization" appliedOn="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']/@style" referenceName="borderColor">
-              <value href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
-            </featureCustomizations>
           </vsmElementCustomizations>
           <vsmElementCustomizations xsi:type="description:VSMElementCustomization" predicateExpression="aql:self.status=GoT::Status::alive">
             <featureCustomizations xsi:type="description:EReferenceCustomization" appliedOn="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']/@style" referenceName="labelColor">
-              <value href="environment:/viewpoint#//@systemColors/@entries[name='dark_green']"/>
-            </featureCustomizations>
-            <featureCustomizations xsi:type="description:EReferenceCustomization" appliedOn="//@ownedViewpoints[name='MovieMode']/@ownedRepresentations[name='CharactersOverview']/@defaultLayer/@nodeMappings[name='Character']/@style" referenceName="borderColor">
               <value href="environment:/viewpoint#//@systemColors/@entries[name='dark_green']"/>
             </featureCustomizations>
           </vsmElementCustomizations>
